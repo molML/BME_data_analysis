@@ -32,9 +32,9 @@ Some introduction text, formatted in heading 2 style
 ## Want more?
 Are you curious and want to keep learning? Check out the following resources:
 
-* 
-* 
-* 
+* placeholder 1
+* placeholder 2
+* placeholder 3
 
 ## Thesis opportunities
 Are you eager to apply data science, programming and machine learning to relevant problems in chemical biology and drug discovery?

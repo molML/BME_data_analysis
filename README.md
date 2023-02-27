@@ -1,6 +1,6 @@
-# just-the-docs-template
+# Advanced programming and biomedical data analysis
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+This is the material for the 8CC00 course at TU/e. 
 
 - uses the [Just the Docs] theme;
 - can be built and published on [GitHub Pages];

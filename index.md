@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 # Advanced programming and biomedical data analysis
 
@@ -14,7 +15,6 @@ This is the material for the 8CC00 course at TU/e - Welcome!
 
 ## This is the introduction <a name="introduction"></a>
 Some introduction text, formatted in heading 2 style
-
 
 ### Frequently Asked Questions <a name="faq"></a>
 *1. Where do I find the material website?*

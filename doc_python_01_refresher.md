@@ -5,7 +5,7 @@ parent: Python Programming
 nav_order: 1
 ---
 
-# Python Programming Refresher
+# Python Refresher
 {: .no_toc }
 
 For the scopes of this course, we assume you have basic knowledge of the python programming language. If you need a 
@@ -37,6 +37,10 @@ Here, links to the IDE page.
 
 ### Command lines and terminals
 
+### Common python IDEs
+
+
+
 ## Python syntax
 
 ### python syntax
@@ -56,12 +60,12 @@ Here, links to the IDE page.
 
 
 
-## References
+## References and acknowledgements
 This page was inspired by many awesome resources available online, and in particular by 
 [W3schools](https://www.w3schools.com/python/python_variables_multiple.asp), 
 
 
-
+## Additional resources
 
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

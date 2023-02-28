@@ -5,8 +5,10 @@ has_children: true
 nav_order: 2
 ---
 
-# Python Programming Refresher
+# Python Programming
 {: .no_toc }
+
+![Python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png)
 
 ## Contents
 {: .no_toc }
@@ -22,25 +24,22 @@ nav_order: 2
 
 ---
 
-![Python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png)
 
 ## Why Python?
-The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren).
 
-By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see [Pages with Children](#pages-with-children)).
+Python is witnessing a progressive growth and popularity year by year. 
 
----
 
-## Refresh your Python skills
+## Basic knowledge required for this course
 
-To specify a page order, you can use the `nav_order` parameter in your pages' YAML front matter.
-
+For this course, we expect you to have basic knowledge of the Python programming language. If you need a refresher, 
+have a look at the [Python Programming Refresher]({% link doc_python_01_refresher.md %})) page.
 
 ## Want more?
 
 Useful resources to hone your Python skills:
 * [W3 Schools Python tutorial](https://www.w3schools.com/python/default.asp), with examples and quizzes on file handling, functions and common packages.
-* 
+* [HackerRank](https://www.hackerrank.com/dashboard), a great platform to test you coding knowledge and solve challenging problems!
 
 
 ## References

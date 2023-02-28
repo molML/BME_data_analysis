@@ -17,5 +17,4 @@ Here, you will find everything you need to get you started with python for biome
 
 
 
-
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

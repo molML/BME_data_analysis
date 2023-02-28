@@ -31,13 +31,29 @@ refresher, no problem, we have you covered! Just keep reading...
 ---
 ## Getting started
 ### Downloading and installing python
-Here, links to the IDE page.
+
 
 ### Quickstart
 
 ### Command lines and terminals
 
 ### Common python IDEs
+*Integrated Development Environments* (IDEs) are software that wraps all the tools needed for writing and testing 
+ programs in a single toolkit. IDEs are more advanced than *code editors* (CEs), which are lightweight amd usually
+only contain tools to write code (e.g., a text editor with syntax highlighting and simple bug catching). We reccomend
+using an IDEs when writing, debugging and testing your code, as it will make your life way simpler.
+
+Many online guides exist to choose IDEs (e.g., [this one](https://www.educative.io/blog/best-python-ides-ce-2021), or 
+[this other one](https://www.simplilearn.com/tutorials/python-tutorial/python-ide)). Here, you will just find a (non-extensive)
+collection of our favourites:
+
+**1. Visual Studio Code**
+
+[Visual Studio Code](https://code.visualstudio.com/) is
+
+#### 2. PyCharm
+{: .no_toc }
+
 
 
 

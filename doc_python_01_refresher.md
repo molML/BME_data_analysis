@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Python Programming
-has_children: true
-nav_order: 2
+title: Python Refresher
+parent: Python Programming
+nav_order: 1
 ---
 
 # Python Programming Refresher

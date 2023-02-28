@@ -32,3 +32,7 @@ To specify a page order, you can use the `nav_order` parameter in your pages' YA
 
 
 ## Want more?
+
+
+
+<sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

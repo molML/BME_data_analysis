@@ -59,3 +59,9 @@ Here, links to the IDE page.
 ## References
 This page was inspired by many awesome resources available online, and in particular by 
 [W3schools](https://www.w3schools.com/python/python_variables_multiple.asp), 
+
+
+
+
+
+<sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

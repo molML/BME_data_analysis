@@ -13,3 +13,9 @@ reach out to us!
 
 * *How do I get in touch with the teachers?*
 * *I have found a typo in the course material, how can I correct it?*
+
+
+
+
+
+<sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

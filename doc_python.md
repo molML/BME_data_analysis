@@ -14,3 +14,8 @@ Here, you will find everything you need to get you started with python for biome
 
 <sup>Image credits [https://susanne-vanwagensveld.medium.com/](https://susanne-vanwagensveld.medium.com/how-memes-can-help-you-learn-python-d69826db6cbf)</sup>
 
+
+
+
+
+<sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

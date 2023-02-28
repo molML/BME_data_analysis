@@ -59,3 +59,8 @@ Useful resources to hone your Python skills:
 ## References
 
 This page was inspired by 
+
+
+
+
+<sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

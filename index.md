@@ -40,7 +40,9 @@ Are you curious and want to keep learning? Check out the following resources:
 Are you eager to apply data science, programming and machine learning to relevant problems in chemical biology and drug discovery?
 Then, our group might be for you! 
 
-[Reach out](mailto: f.grisoni@tue.nl) to know more about BEP and MSc thesis opportunities!
+[Reach out](<mailto: f.grisoni@tue.nl>) to know more about BEP and MSc thesis opportunities!
 
 ## Contributors
 Several people have made this document possible: , , , , .
+
+<sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

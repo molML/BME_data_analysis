@@ -19,3 +19,6 @@ nav_order: 4
 ---
 
 
+
+<sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>
+

@@ -31,11 +31,8 @@ refresher, no problem, we have you covered! Just keep reading...
 ---
 ## Getting started
 ### Downloading and installing Python
-There are many ways to install Python. We recommend using [Miniconda](https://docs.conda.io/en/latest/miniconda.html), 
+There are many ways to install Python. We recommend using [Miniconda](https://docs.conda.io/en/latest/miniconda.html),<sup>*</sup> 
 which will install Python alongside some useful packages. Make sure to use Python 3 (e.g., v.3.7 or superior). 
-
-Miniconda will also allow you to install additional packages you might need, via the command:\
-```conda install```.
 
 To check if Python was succesfully installed, you can use the following commands:\
 On a Windows computer (command line):\
@@ -44,6 +41,7 @@ On a Windows computer (command line):\
 On a Mac or Linux computer (terminal):\
 ```python --version```
 
+<sup>*</sup>Miniconda will also allow you to install additional packages you might need, see the [tools TODO]() page.
 ### Quickstart
 
 ### Command lines and terminals

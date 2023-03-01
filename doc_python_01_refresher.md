@@ -30,7 +30,7 @@ refresher, no problem, we have you covered! Just keep reading...
 
 ---
 ## Getting started
-### Installing Python and quickstart
+### Installing Python and quickstarting
 There are many ways to install Python. We recommend using [Miniconda](https://docs.conda.io/en/latest/miniconda.html),<sup>*</sup> 
 which will install Python alongside some useful packages. Make sure to use Python 3 (e.g., v.3.7 or superior). 
 
@@ -47,6 +47,12 @@ Congrats! Now you have installed Python! You can find examples and exercises on 
 
 <sup>*</sup><u>Spoiler Alert!</u> Miniconda will be useful to install additional packages you might need, see the [Tools](doc_python_02_tools) page.
 
+### Nice-to-haves
+
+Other few ingredients will make your life easier and more fun while coding. They are:
+1. A Python IDE, to write better code, faster. Have a look at the [IDE Section](doc_python_02_tools).
+2. A package manager, such as Conda (see #TODO).
+3. A computer!
 
 ## Python syntax
 

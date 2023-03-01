@@ -30,21 +30,22 @@ refresher, no problem, we have you covered! Just keep reading...
 
 ---
 ## Getting started
-### Downloading and installing Python
+### Installing Python and quickstart
 There are many ways to install Python. We recommend using [Miniconda](https://docs.conda.io/en/latest/miniconda.html),<sup>*</sup> 
 which will install Python alongside some useful packages. Make sure to use Python 3 (e.g., v.3.7 or superior). 
 
-To check if Python was succesfully installed, you can use the following commands:\
+To check if Python was successfully  installed, you can use the following commands:\
 On a Windows computer (command line):\
 ```C:\Users\Your Name>python --version```
 
 On a Mac or Linux computer (terminal):\
 ```python --version```
 
-<sup>*</sup>Miniconda will also allow you to install additional packages you might need, see the [tools TODO]() page.
-### Quickstart
+Congrats! Now you have installed Python! You can find examples and exercises on how to get started with Python on the
+[W3schools](https://www.w3schools.com/python/python_getstarted.asp) website, in the 
+[Python Getting Started](https://www.w3schools.com/python/python_getstarted.asp) page.
 
-### Command lines and terminals
+<sup>*</sup><u>Spoiler Alert!</u> Miniconda will be useful to install additional packages you might need, see the [Tools](doc_python_02_tools) page.
 
 ### Common python IDEs
 *Integrated Development Environments* (IDEs) are software that wraps all the tools needed for writing and testing 
@@ -58,11 +59,20 @@ collection of our favourites:
 
 **1. Visual Studio Code**
 
-[Visual Studio Code](https://code.visualstudio.com/) is
+[Visual Studio Code](https://code.visualstudio.com/) (VS Code) is a full-featured code editor available for Linux, Mac OS X, and Windows. 
+It is small and light-weight, but full-featured, as well as open-source, extensible, and configurable for almost any task.
+VS Code is full-featured despite having a small footprint.
 
-#### 2. PyCharm
-{: .no_toc }
+**2. PyCharm**  
 
+It’s the de facto Python IDE environment, with tons of support and a supportive community. It edits, runs, and debugs Python out of the box.
+
+Cons: PyCharm can be slow to load, and the default settings may need tweaking for existing projects.
+
+[PyCharm](https://www.jetbrains.com/pycharm/) is the de facto Python IDE environment, with a big community support. It is fully featured
+and is available for Linux, Mac OS X, and Windows. It is available in both paid (Professional) and free (Community) editions, 
+although the community edition might be somewhat limited for advanced tasks. Free educational licenses are available
+for the Professional edition upon request.
 
 
 

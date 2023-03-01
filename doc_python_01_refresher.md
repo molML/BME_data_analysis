@@ -47,34 +47,6 @@ Congrats! Now you have installed Python! You can find examples and exercises on 
 
 <sup>*</sup><u>Spoiler Alert!</u> Miniconda will be useful to install additional packages you might need, see the [Tools](doc_python_02_tools) page.
 
-### Common python IDEs
-*Integrated Development Environments* (IDEs) are software that wraps all the tools needed for writing and testing 
- programs in a single toolkit. IDEs are more advanced than *code editors* (CEs), which are lightweight amd usually
-only contain tools to write code (e.g., a text editor with syntax highlighting and simple bug catching). We reccomend
-using an IDEs when writing, debugging and testing your code, as it will make your life way simpler.
-
-Many online guides exist to choose IDEs (e.g., [this one](https://www.educative.io/blog/best-python-ides-ce-2021), or 
-[this other one](https://www.simplilearn.com/tutorials/python-tutorial/python-ide)). Here, you will just find a (non-extensive)
-collection of our favourites:
-
-**1. Visual Studio Code**
-
-[Visual Studio Code](https://code.visualstudio.com/) (VS Code) is a full-featured code editor available for Linux, Mac OS X, and Windows. 
-It is small and light-weight, but full-featured, as well as open-source, extensible, and configurable for almost any task.
-VS Code is full-featured despite having a small footprint.
-
-**2. PyCharm**  
-
-It’s the de facto Python IDE environment, with tons of support and a supportive community. It edits, runs, and debugs Python out of the box.
-
-Cons: PyCharm can be slow to load, and the default settings may need tweaking for existing projects.
-
-[PyCharm](https://www.jetbrains.com/pycharm/) is the de facto Python IDE environment, with a big community support. It is fully featured
-and is available for Linux, Mac OS X, and Windows. It is available in both paid (Professional) and free (Community) editions, 
-although the community edition might be somewhat limited for advanced tasks. Free educational licenses are available
-for the Professional edition upon request.
-
-
 
 ## Python syntax
 

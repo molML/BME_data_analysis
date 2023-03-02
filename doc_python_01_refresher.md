@@ -42,7 +42,7 @@ On a Windows computer (command line):\
 ```C:\Users\Your Name>python --version```
 
 On a Mac or Linux computer (terminal):\
-```python --version```
+```$ python --version```
 
 Congrats! Now you have installed Python! You can find examples and exercises on how to get started with Python on the
 [W3schools](https://www.w3schools.com/python/python_getstarted.asp) website, in the 
@@ -277,7 +277,10 @@ while i < 10:
 ```
 
 ### Functions
-
+<details close markdown="block">
+  <summary>
+    Click here to expand
+  </summary>
 A function is a block of code that runs only when it is called. You can pass data (known as parameters), into a function.
 In python, functions are defined using the `def` keyword, as follows:
 
@@ -286,10 +289,69 @@ def hello():
   print("Hello world!")
 ```
 This function will be called as `hello()`, and will print the specified string. 
+```
+>>> hello()
+Hello world!
+```
+**Function arguments**
 
+Information can be passed into functions as arguments, for instance:
+```python
+def hello(name):
+  print("Hello " + name + "!")
+```
+Which would result in the following:
+```
+>>> hello("Michael")
+Hello Michael!
 
-A function can return data as a result.
+>>> hello("Meilina")
+Hello Meilina!
+```
+More than one parameter can be allowed, for instance:
+```python
+def hello(first_name, last_name):
+  print("Hello " + first_name + " " + last_name + "!")
+```
+results in the following:
+```
+>>hello("LeBron","James")
+Hello LeBron James!
+```
 
+**Arbitrary arguments** (`*args`)
+
+If you do not know how many arguments that will be passed into your function, add a `*` before the parameter name in 
+the function definition. In this way the arguments will be passed as a *tuple*, and you can access the items accordingly:
+```python
+def smallest(*ages):
+  print(str(min(ages))) # computes the minimum and converts to a string for printing
+```
+results in the following:
+```
+>>smallest(1,2,3)
+1
+>>smallest(-100,1,2,3,100)
+-100
+```
+
+**Arbitrary arguments** (`**kwargs`)
+
+`**kwargs` (key word arguments) works like `*args`, but instead of accepting positional arguments it accepts keyword (or named) arguments.
+
+```python
+def person_details(**kwargs):
+    print(kwargs, type(kwargs))
+```
+results in the following:
+```
+>>person_details(name="LeBron", surname="James", height=2.06)
+{'surname': 'James', 'name': 'LeBron', 'height': 2.06}
+
+>>person_details(name="Peppa", surname="Pig", DoB="May 30")
+{'DoB': 'May 30', 'surname': 'Pig', 'name': 'Peppa'}
+```
+</details>
 
 ## References
 This page was inspired by many awesome resources available online, and in particular by:  \

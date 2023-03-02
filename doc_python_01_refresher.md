@@ -60,6 +60,10 @@ Other few ingredients will make your life easier and more fun while coding. They
 ## Python syntax
 
 ### Basic syntax
+<details close markdown="block">
+  <summary>
+    Expand
+  </summary>
 
 The examples below are taken from the [official Python documentation](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), 
 where you will find even more!
@@ -219,7 +223,14 @@ You can also use negative numbers for indexing, which starts to count from the e
 
 <u>NB!</u> If you need more examples, you can have a look at the [Python Cheatsheet](https://www.pythoncheatsheet.org/), among others.
 
+</details>
+
 ### Indentation
+<details close markdown="block">
+  <summary>
+    Expand
+  </summary>
+
 Indentation refers to the spaces at the beginning of a code line. Whereas other programming languages use indentation 
 for readability, in Python, indentation is a key element of the syntax. In fact, Python uses indentation to indicate a block of code.
 
@@ -241,9 +252,14 @@ print("a is also greater than 9")
 
 The number of spaces is up to you as a programmer, but it has to be at least one! Also, check out [Writing good Python code > Python PEP8 Style Guide](#doc_python_style)
 on suggestions regarding the 'stylistic' usage of spaces. 
-
+</details>
 
 ### Variables, types, and casting
+<details close markdown="block">
+  <summary>
+    Expand
+  </summary>
+
 **Variable types**
 
 Python supports different types of variables:
@@ -353,6 +369,7 @@ A full list can be found [here](https://en.wikipedia.org/wiki/Python_syntax_and_
 
 <sup><sup>*</sup> Only simple, one-line examples are provided. 😊 Bear with us!</sup>
 
+</details>
 </details>
 
 ## Fundamentals of Python programming

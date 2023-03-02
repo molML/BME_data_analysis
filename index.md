@@ -7,8 +7,8 @@ nav_order: 1
 {: .no_toc }
 This is the material for the 8CC00 course at TU/e - Welcome!
 
-This handbook was made with ❤️ by [Francesca Grisoni](https://www.tue.nl/en/research/researchers/francesca-grisoni/).\
-Other key [contributors](#contributors) have made this all possible. 
+This notebook was made with ❤️ by [Francesca Grisoni](https://www.tue.nl/en/research/researchers/francesca-grisoni/).\
+Other key [contributors](#contributors) are acknowledged for their support. 
 
 ## Table of contents
 {: .no_toc }

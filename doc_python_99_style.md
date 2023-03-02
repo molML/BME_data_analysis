@@ -9,7 +9,9 @@ nav_order: 1
 {: .no_toc }
 
 
-![img.png](img.png)
+<img src="https://www.explainxkcd.com/wiki/images/0/06/bad_code.png" width=500>
+
+<sup>Image credits [xkcd](https://www.explainxkcd.com/wiki/index.php/1926:_Bad_Code)</sup>
 
 <details open markdown="block">
   <summary>

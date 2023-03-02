@@ -53,14 +53,15 @@ Congrats! Now you have installed Python! You can find examples and exercises on 
 ### Nice-to-haves
 
 Other few ingredients will make your life easier and more fun while coding. They are:
-1. A Python IDE, to write better code, faster. Have a look at the [IDE Section](doc_python_02_tools).
-2. A package manager, such as Conda (see #TODO).
-3. A computer!
+1. A Python IDE, to write better code, faster. Have a look at the [tools](doc_python_02_tools) page, in the IDE section.
+2. A package manager , such as Conda. See [tools](doc_python_02_tools) page.
+3. A computer! 💻
 
 ## Python syntax
 
 ### Basic syntax and indentation
 Python uses different types of brackets to identify different things.
+
 
 
 * Invoking functions
@@ -186,7 +187,7 @@ A full list can be found [here](https://en.wikipedia.org/wiki/Python_syntax_and_
 
 </details>
 
-## Fundamentals of python programming
+## Fundamentals of Python programming
 
 ### Logical conditions
 

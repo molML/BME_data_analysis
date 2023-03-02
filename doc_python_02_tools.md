@@ -9,15 +9,16 @@ nav_order: 1
 {: .no_toc }
 
 
+> *Make sure that you always have the right tools for the job. It's no use trying to eat a steak with a teaspoon, and a straw.*
+> 
+> Anthony T. Hincks
+
 <p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Old_tools_collection_%2827204177988%29.jpg" width=600>
 </p>
 
 <sup>Image credits [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Old_tools_collection_%2827204177988%29.jpg)</sup>
 
-> *Make sure that you always have the right tools for the job. It's no use trying to eat a steak with a teaspoon, and a straw.*
-> 
-> Anthony T. Hincks
  
 ## Contents
 {: .no_toc }

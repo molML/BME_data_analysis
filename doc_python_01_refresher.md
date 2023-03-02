@@ -139,36 +139,42 @@ On Style
 Python has 35 reserved words that cannot be used as variable names. Here are some of the ones that will be useful for you. 
 A full list can be found [here](https://en.wikipedia.org/wiki/Python_syntax_and_semantics). 
 
+<details close markdown="block">
+  <summary>
+    Click here to expand the selected keywords
+  </summary>
 
-| Keyword    |                   Function                   |                                                                             Description | Examples<sup>*</sup>                              |
-|------------|:--------------------------------------------:|----------------------------------------------------------------------------------------:|---------------------------------------------------|
-| `and`      |               Logical operator               |                                          Returns `True` if two statements are both true | `x < 5 and  x < 10`                               |
-| `as`       |                Import keyword                |                        When importing a module with `import`, specifies the name to use | `import pandas as pd`                             |
-| `assert`   |          Diagnostics and execution           |                             If a condition returns `False`, an AssertionError is raised | `assert x == "goodbye", "x should be 'hello'"`    |
-| `break`    |              Function for loops              |                                                             Terminates the current loop | See [loops](#loops).                              |
-| `class`    |                Class keyword                 |                                                                  Used to create classes | -                                                 |
-| `continue` |              Function for loops              | Ends the current iteration in a `for`(or `while` ), and continues to the next iteration | -                                                 |
-| `def`      |               Function keyword               |                                                                       Defines functions | -                                                 |
-| `elif`     |          Keyword for if statements           |        Specifies the condition for if statements, when more than one alternative exists | -                                                 |
-| `else`     |          Keyword for if statements           |                            Specifies the condition as an alternative to an if statement | See [conditional statements](#logical_conditions) |
-| `except`   |             Try-except statement             |                  Used to continue the execution when an error is encountered, see `try` | -                                                 |
-| `False`    |             Comparison operator              |               Boolean value resulting from a comparison operation. (Opposite of `True`) | -                                                 |
-| `for`      |              Function for loops              |                                            Specifies the values to iterate on in a loop | See [loops](#loops).                              |
-| `from`     |                Import keyword                |                                     Used to import only a specified section of a module | `from pandas import DataFrame`                    |
-| `if`       |          Keyword for if statements           |                                            First condition specified in an if statement | -                                                 |
-| `import`   |                Import keyword                |                                                Imports a module, by making it available | `import pandas`                                   |
-| `in`       |             Membership operator              |          Returns `True` if a sequence with the specified value is present in the object | `x in y` or  `x not in y`                         |
-| `is`       |              Identity operator               |                                                          Comparison between two objects | `x is y`                                          |
-| `is not`   |              Identity operator               |                                                          Comparison between two objects | `x is not y`                                      |
-| `None`     |                 None keyword                 |                                                                     Define a null value | `x = None`                                        |
-| `or`       |               Logical operator               |                                        Returns `True` if one of two statements is  true | `x < 5 or  x > 10`                                |
-| `raise`    |          Diagnostics and execution           |      Raises an error and stops the program if a condition is satisfied (e.g., via `if`) | -                                                 |
-| `return`   |               Function keyword               |                                      Sends the results of a function back to the caller | -                                                 |
-| `True`     |             Comparison operator              |              Boolean value resulting from a comparison operation. (Opposite of `False`) | -                                                 |
-| `try`      |             Try-except statement             |                             Used to continue the execution when an error is encountered | -                                                 |
-| `while`    |              Function for loops              |                             Executes a set of statements as long as a condition is true | See [loops](#loops)                               |
+| Keyword    |                   Function                   |                                                                             Description | Examples<sup>*</sup>                           |
+|------------|:--------------------------------------------:|----------------------------------------------------------------------------------------:|------------------------------------------------|
+| `and`      |               Logical operator               |                                          Returns `True` if two statements are both true | `x < 5 and  x < 10`                            |
+| `as`       |                Import keyword                |                        When importing a module with `import`, specifies the name to use | `import pandas as pd`                          |
+| `assert`   |          Diagnostics and execution           |                             If a condition returns `False`, an AssertionError is raised | `assert x == "goodbye", "x should be 'hello'"` |
+| `break`    |              Function for loops              |                                                             Terminates the current loop | See [loops](#loops).                           |
+| `class`    |                Class keyword                 |                                                                  Used to create classes | -                                              |
+| `continue` |              Function for loops              | Ends the current iteration in a `for`(or `while` ), and continues to the next iteration | -                                              |
+| `def`      |               Function keyword               |                                                                       Defines functions | See [functions](#functions).                   |
+| `elif`     |          Keyword for if statements           |        Specifies the condition for if statements, when more than one alternative exists | See [logical conditions](#logical_conditions). |
+| `else`     |          Keyword for if statements           |                            Specifies the condition as an alternative to an if statement | See [logical conditions](#logical_conditions). |
+| `except`   |             Try-except statement             |                  Used to continue the execution when an error is encountered, see `try` | -                                              |
+| `False`    |             Comparison operator              |               Boolean value resulting from a comparison operation. (Opposite of `True`) | -                                              |
+| `for`      |              Function for loops              |                                            Specifies the values to iterate on in a loop | See [loops](#loops).                           |
+| `from`     |                Import keyword                |                                     Used to import only a specified section of a module | `from pandas import DataFrame`                 |
+| `if`       |          Keyword for if statements           |                                            First condition specified in an if statement | See [logical conditions](#logical_conditions). |
+| `import`   |                Import keyword                |                                                Imports a module, by making it available | `import pandas`                                |
+| `in`       |             Membership operator              |          Returns `True` if a sequence with the specified value is present in the object | `x in y` or  `x not in y`                      |
+| `is`       |              Identity operator               |                                                          Comparison between two objects | `x is y`                                       |
+| `is not`   |              Identity operator               |                                                          Comparison between two objects | `x is not y`                                   |
+| `None`     |                 None keyword                 |                                                                     Define a null value | `x = None`                                     |
+| `or`       |               Logical operator               |                                        Returns `True` if one of two statements is  true | `x < 5 or  x > 10`                             |
+| `raise`    |          Diagnostics and execution           |      Raises an error and stops the program if a condition is satisfied (e.g., via `if`) | -                                              |
+| `return`   |               Function keyword               |                                      Sends the results of a function back to the caller | -                                              |
+| `True`     |             Comparison operator              |              Boolean value resulting from a comparison operation. (Opposite of `False`) | -                                              |
+| `try`      |             Try-except statement             |                             Used to continue the execution when an error is encountered | -                                              |
+| `while`    |              Function for loops              |                             Executes a set of statements as long as a condition is true | See [loops](#loops)                            |
 
 <sup><sup>*</sup> Only simple, one-line examples are provided. 😊 Bear with us!</sup>
+
+</details>
 
 ## Fundamentals of python programming
 
@@ -272,7 +278,17 @@ while i < 10:
 
 ### Functions
 
+A function is a block of code that runs only when it is called. You can pass data (known as parameters), into a function.
+In python, functions are defined using the `def` keyword, as follows:
 
+```python
+def hello():
+  print("Hello world!")
+```
+This function will be called as `hello()`, and will print the specified string. 
+
+
+A function can return data as a result.
 
 
 ## References

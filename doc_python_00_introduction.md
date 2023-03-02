@@ -47,7 +47,7 @@ Scripting and tooling
 ## Basic knowledge required for this course
 
 For this course, we expect you to have basic knowledge of the Python programming language. If you need a refresher, 
-have a look at the [Python Programming Refresher]({% link doc_python_01_refresher.md %})) page.
+have a look at the [Python Programming Refresher]({% link doc_python_01_refresher.md %}) page.
 
 ## Want more?
 

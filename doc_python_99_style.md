@@ -1,15 +1,11 @@
 ---
 layout: default
-title: Style Guide for Python Code
+title: Writing Good Python code
 parent: Python Programming
 nav_order: 1
 ---
 
-# Useful tools and packages
-{: .no_toc }
-
-
-## Contents
+# Writing Good Python code
 {: .no_toc }
 
 <details open markdown="block">
@@ -23,7 +19,8 @@ nav_order: 1
 
 ---
 
-PEP 8
+## Python PEP8 Style
+
 https://peps.python.org/pep-0008/
 
 

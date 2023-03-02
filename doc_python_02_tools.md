@@ -78,15 +78,19 @@ necessarily for other coding tasks.
 
 
 ## Python libraries for data science
-### Libraries for math
+### Math
 
 **SciPy**
 
 **NumPy**
 
-### Libraries for data exploration
+### Data exploration
 
-### Libraries for data visualization
+**Pandas**
+
+**D-tale**
+
+### Data visualization
 **Matplotlib**
 
 **Plotly**
@@ -95,7 +99,7 @@ necessarily for other coding tasks.
 
 **Ggplot**
 
-### Libraries for machine learning
+### Machine learning
 
 
 **SciKit-Learn**
@@ -111,7 +115,7 @@ necessarily for other coding tasks.
 
 
 
-### Libraries for data scraping
+### Web data scraping
 **Scrapy**
 
 **BeautifulSoup**

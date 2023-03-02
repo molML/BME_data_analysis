@@ -59,21 +59,147 @@ Other few ingredients will make your life easier and more fun while coding. They
 
 ## Python syntax
 
-### Basic syntax and indentation
-Python uses different types of brackets to identify different things.
+### Basic syntax
+
+The examples below are taken from the [official Python documentation](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), 
+where you will find even more!
+
+**Numbers and operations**
+The interpreter acts as a simple calculator: you can type an expression at it, and it will write the value. 
+Expression syntax is straightforward: the operators `+`, `-`, `*` and `/` are used to perform calculation, 
+and the parentheses (`()`) are for grouping. For example:
+
+```python
+>> 2 + 2
+4
+>> 50 - 5*6
+20
+>> (50 - 5*6) / 4
+5.0
+>> 8 / 5  # division always returns a floating point number
+1.6
+```
+Division (`/`) always returns a float. To do floor division and get an integer result you can use the `//` operator; 
+to calculate the remainder you can use `%`:
+
+```python
+>> 17 / 3  # classic division returns a float
+5.666666666666667
+>> 17 // 3  # floor division discards the fractional part
+5
+>> 17 % 3  # the % operator returns the remainder of the division
+2
+>> 5 * 3 + 2  # floored quotient * divisor + remainder
+17
+```
+
+With Python, the `**` operator can be used to calculate powers:
+```python
+>> 5 ** 2  # 5 squared
+25
+>> 2 ** 7  # 2 to the power of 7
+128
+```
+
+The equal sign (`=`) is used to assign a value to a variable.
+```python
+>> width = 20
+>> height = 5 * 9
+>> width * height
+900
+```
+
+<u>Warning!</u> The operator `=` should not be confused with `==`, which is used to compare objects based on their values:
+```python
+>> width = 20  # assigns the value the variable
+>> width == 25 # compares it with 25
+False
+```
+
+**Strings**
+
+Besides numbers, Python can also manipulate strings, which can be expressed either with single (`'`) or double (`"`) quotes
+with the same result. `\` can be used to escape quotes:
+```python
+>> 'mountain trail'  # single quotes
+'mountain trail'
+>> 'doesn\'t'        # use \' to escape the single quote
+"doesn't"
+>> "doesn't"         # or use double quotes instead
+"doesn't"
+>> '"No," they said.'
+'"No," they said.'
+>> "\"No,\" they said."
+'"No," they said.'
+>> '"Isn\'t," they said.'
+'"Isn\'t," they said.'
+```
+Strings can be concatenated  with the `+` operator, and repeated with `*`:
+```python
+>> 'sci' + 'ence'         # concatenation
+'science'
+>> 2*'da'                 # repetition
+'dada'
+>> 2 * 'per' + 'petual'   # repetition and concatenation
+'perpetual'
+```
+**Lists**
+
+Lists are a versatile way to group values together. 
+With lists, comma-separated values (items) are specified between square brackets. 
+Lists might contain items of different types, but usually the items all have the same type.
+```python
+>> values = [1, 2, 5]
+values
+[1, 2, 5]
+```
+Lists can be indexed and sliced:
+```python
+>> values = [1, 2, 5]
+>> squares[0]          # indexing returns the item
+1
+>> values[-2:]         # slicing returns a new list
+[2,5]
+```
+If you are confused about the values returned in the previous example, you're not alone. Keep reading until the indexing
+section below.
+
+Lists also support operations like concatenation:
+```python
+>> values + [27, 28]
+[1, 2, 5, 27, 28]
+```
+
+
+**Python indexing**
 
 
 
-* Invoking functions
-* Creating instances of a class or instances of an object
-* Generators
+If you need more examples, you can have a look at the [Python Cheatsheet](https://www.pythoncheatsheet.org/), among others.
 
-
-**Square brackets**
-
-
-If you need a reference, you can have a look at the [Python Cheatsheet](https://www.pythoncheatsheet.org/), among others.
 ### Indentation
+Indentation refers to the spaces at the beginning of a code line. Whereas other programming languages use indentation 
+for readability, in Python, indentation is a key element of the syntax. In fact, Python uses indentation to indicate a block of code.
+
+```python
+# Correct usage of indentation
+a = 10
+if 10 > 3:
+  print("a is greater than three!")
+  if a > 9:
+      print("a is also greater than 9")
+
+      
+# This would give a syntax error  
+if 10 > 3:
+print("Ten is greater than three!")
+if a > 9:
+print("a is also greater than 9")
+```
+
+The number of spaces is up to you as a programmer, but it has to be at least one! Also, check out [Writing good Python code > Python PEP8 Style Guide](#doc_python_style)
+on suggestions regarding the 'stylistic' usage of spaces. 
+
 
 ### Variables, types, and casting
 **Variable types**

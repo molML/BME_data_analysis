@@ -29,5 +29,8 @@ nav_order: 1
 https://peps.python.org/pep-0008/
 
 
+## Make your code more Pythonic
+https://towardsdatascience.com/5-things-that-will-instantly-make-your-python-code-more-pythonic-198c6d371c80
+https://docs.python-guide.org/writing/style/
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

@@ -170,12 +170,54 @@ Lists also support operations like concatenation:
 [1, 2, 5, 27, 28]
 ```
 
+You can also change the content of a list:
+```python
+>> values
+[1, 2, 5]
+>> values[0] = 40
+>> values
+[40, 2, 5]
+```
+You can add new items at the end of the list, by using `append()`, and count the items it contains with `len()`: 
+```python
+>> values              # displays the list
+[40, 2, 5]
+>> len(values)         # counts the number of items
+3
+>> values.append(100)  # appends a new item
+>> values              # displays the list again
+[40, 2, 5, 100]
+>> len(values)         # counts the number of items again
+4
+```
 
-**Python indexing**
+**Python indexing and slicing**
+If you come from other programming languages such as [MATLAB](), [Julia](), or [R],(), you might be surprised to discover
+that Python starts counting from 0. 
+```python
+>> a = ['cat', 'dog', 'mouse', 'monkey']
+>> a[0]             # first element of the list
+'cat'
+>> a[1]             # second element of the list
+'dog'
+>> a[len(a)-1]      # ultimate element (lenght - 1) of the list
+'monkey'
+>> a[:]             # entire list
+['cat', 'dog', 'mouse', 'monkey']
+```
+You can also use negative numbers for indexing, which starts to count from the end of the sequence:
+
+```python
+>>> a[-1]
+'monkey'
+>>> a[-2]
+'mouse'
+>>> a[-4]
+'cat'
+```
 
 
-
-If you need more examples, you can have a look at the [Python Cheatsheet](https://www.pythoncheatsheet.org/), among others.
+<u>NB!</u> If you need more examples, you can have a look at the [Python Cheatsheet](https://www.pythoncheatsheet.org/), among others.
 
 ### Indentation
 Indentation refers to the spaces at the beginning of a code line. Whereas other programming languages use indentation 

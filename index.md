@@ -7,6 +7,9 @@ nav_order: 1
 {: .no_toc }
 This is the material for the 8CC00 course at TU/e - Welcome!
 
+This handbook was made with ❤️ by [Francesca Grisoni](https://www.tue.nl/en/research/researchers/francesca-grisoni/).\
+Other key [contributors](#contributors) have made this all possible. 
+
 ## Table of contents
 {: .no_toc }
 
@@ -20,6 +23,7 @@ This is the material for the 8CC00 course at TU/e - Welcome!
 </details>
 
 ---
+
 
 ## What you will find here
 Some introduction text, formatted in heading 2 style
@@ -43,6 +47,10 @@ Then, our group might be for you!
 [Reach out](<mailto: f.grisoni@tue.nl>) to know more about BEP and MSc thesis opportunities!
 
 ## Contributors
-Several people have made this document possible: , , , , .
+
+
+Several people have made this document possible, and are thanked for their support:
+* [Meilina Reksoprodjo](https://github.com/MeilinaR)
+* [Rıza Özçelik](https://github.com/rizaozcelik)
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

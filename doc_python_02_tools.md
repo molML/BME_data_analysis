@@ -74,4 +74,49 @@ necessarily for other coding tasks.
 
 </details>
 
+## Virtual environments
+
+
+## Python libraries for data science
+### Libraries for math
+
+**SciPy**
+
+**NumPy**
+
+### Libraries for data exploration
+
+### Libraries for data visualization
+**Matplotlib**
+
+**Plotly**
+
+**Seaborn**
+
+**Ggplot**
+
+### Libraries for machine learning
+
+
+**SciKit-Learn**
+
+**PyCaret**
+
+
+**Keras**
+
+**TensorFlow**
+
+**PyTorch**
+
+
+
+### Libraries for data scraping
+**Scrapy**
+
+**BeautifulSoup**
+
+
+You will find more info [here](https://www.knowledgehut.com/blog/data-science/python-libraries-for-data-science).
+
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

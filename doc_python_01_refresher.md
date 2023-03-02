@@ -64,6 +64,8 @@ Other few ingredients will make your life easier and more fun while coding. They
 ### Indentation
 
 ### Variables, types, and casting
+\
+**Variable types**
 
 Python supports different types of variables:
 * whole integers (e.g., 3)
@@ -75,7 +77,7 @@ You do not need to specify the datatype of a variable, you can simply assign any
 Try with the exercise below:
 
 ```python
-x = 3              # a whole number                   
+x = 3              # an integer                   
 f = 3.1415926      # a floating point number              
 name = "Python"    # a string
 
@@ -90,8 +92,81 @@ sum = f + f
 print(sum)
 ```
 
+**Variable casting**
+
+There may be cases in which you want to specify a type on to a variable. 
+Casting in python is rather easy, and can be done with the following functions:
+* `int()` constructs an integer number from an integer, a float (by removing all decimals), or a string (providing the string represents a whole number).
+* `float()` constructs a float number from an integer, a float or a string (providing the string represents a float or an integer).
+* `str()` - constructs a string from a wide variety of data types, including strings, integer literals and float literals.
+
+See the example below (taken from [W3schools](hhttps://www.w3schools.com/python/python_casting.asp)):
+```python
+# Integers
+x = int(1)       # x will be 1
+y = int(2.8)     # y will be 2
+z = int("3")     # z will be 3
+
+# Float numbers
+x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
+
+# Strings
+x = str("s1")    # x will be 's1'
+y = str(2)       # y will be '2'
+z = str(3.0)     # z will be '3.0'
+```
+
+
+**Naming variables**
+
 A variable name <u>must</u> begin with a letter (upper or lower case) or an underscore. Variables cannot start with a number 
-and are case-sensitive.
+and are case-sensitive. Several conventions for names exist, such as capitalized words (also known as camel-casing), lower-letters,
+capitalization.
+
+```python
+MyBelovedVariable = 3    # camel case                   
+mybelovedvariable = 4    # lower letter
+MYBELOVEDVARIABLE = 5    # capitalized
+```
+
+On Style
+
+**Python operators**
+
+Python has 35 reserved words that cannot be used as identifiers. Here are some of the ones that will be useful for you. 
+A full list can be found [here](https://en.wikipedia.org/wiki/Python_syntax_and_semantics). 
+
+| Keyword    |      Function       |                                                                                        Description | Example                   |
+|------------|:-------------------:|---------------------------------------------------------------------------------------------------:|---------------------------|
+| `and`      |  Logical operator   |                                                     Returns `True` if two statements are both true | `x < 5 and  x < 10`       |
+| `assert`   |      centered       |                                                                                                $12 | `and`                     |
+| `break`    |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `class`    |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `continue` |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `def`      |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `elif`     |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `else`     |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `except`   |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `False`    |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `for`      |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `from`     |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `if`       |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `import`   |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `in`       | Membership operator |                     Returns `True` if a sequence with the specified value is present in the object | `x in y` or  `x not in y` |
+| `is`       |  Identity operator  |                                                                     Comparison between two objects | `x is y`                  |
+| `is not`   |  Identity operator  |                                                                                                 $1 | `x is not y`              |
+| `None`     |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `or`       |  Logical operator   |                                                   Returns `True` if one of two statements is  true | `x < 5 or  x > 10`        |
+| `raise`    |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `return`   |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `True`     |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `try`      |    right-aligned    |                                                                                                 $1 | `and`                     |
+| `while`    |    right-aligned    |                                                                                                 $1 | `and`                     |
+
+
 
 
 

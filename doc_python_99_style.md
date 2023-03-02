@@ -1,12 +1,15 @@
 ---
 layout: default
-title: Writing Good Python code
+title: Writing good Python code
 parent: Python Programming
 nav_order: 1
 ---
 
 # Writing Good Python code
 {: .no_toc }
+
+
+![img.png](img.png)
 
 <details open markdown="block">
   <summary>

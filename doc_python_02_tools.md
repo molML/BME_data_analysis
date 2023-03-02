@@ -15,6 +15,10 @@ nav_order: 1
 
 <sup>Image credits [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Old_tools_collection_%2827204177988%29.jpg)</sup>
 
+> *Make sure that you always have the right tools for the job. It's no use trying to eat a steak with a teaspoon, and a straw.*
+> 
+> Anthony T. Hincks
+ 
 ## Contents
 {: .no_toc }
 
@@ -32,12 +36,17 @@ nav_order: 1
 ## Python IDEs
 *Integrated Development Environments* (IDEs) are software that wraps all the tools needed for writing and testing 
  programs in a single toolkit. IDEs are more advanced than *code editors* (CEs), which are lightweight amd usually
-only contain tools to write code (e.g., a text editor with syntax highlighting and simple bug catching). We reccomend
+only contain tools to write code (e.g., a text editor with syntax highlighting and simple bug catching). We recommend
 using an IDEs when writing, debugging and testing your code, as it will make your life way simpler.
 
 Many online guides exist to choose IDEs (e.g., [this one](https://www.educative.io/blog/best-python-ides-ce-2021), or 
 [this other one](https://www.simplilearn.com/tutorials/python-tutorial/python-ide)). Here, you will just find a (non-extensive)
-collection of selected IDEs that might be for you.
+collection of selected IDEs that might be for you. This might help you find the right IDEs, matching your personal taste and needs.
+
+<details close markdown="block">
+  <summary>
+    Expand selected IDEs
+  </summary>
 
 ### Visual Studio Code
 [Visual Studio Code](https://code.visualstudio.com/) (VS Code) is a full-featured code editor available for Linux, Mac OS X, and Windows. 
@@ -61,5 +70,7 @@ Overall, it is a more specialized IDE compared to the previous ones, that might 
 necessarily for other coding tasks. 
 
 ![img.png](ide_spyder/ides_spyder.png)
+
+</details>
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

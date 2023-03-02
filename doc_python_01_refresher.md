@@ -59,12 +59,22 @@ Other few ingredients will make your life easier and more fun while coding. They
 
 ## Python syntax
 
-### Basic syntax
+### Basic syntax and indentation
+Python uses different types of brackets to identify different things.
 
+
+* Invoking functions
+* Creating instances of a class or instances of an object
+* Generators
+
+
+**Square brackets**
+
+
+If you need a reference, you can have a look at the [Python Cheatsheet](https://www.pythoncheatsheet.org/), among others.
 ### Indentation
 
 ### Variables, types, and casting
-\
 **Variable types**
 
 Python supports different types of variables:
@@ -95,7 +105,7 @@ print(sum)
 **Variable casting**
 
 There may be cases in which you want to specify a type on to a variable. 
-Casting in python is rather easy, and can be done with the following functions:
+Casting in Python is rather easy, and can be done with the following functions:
 * `int()` constructs an integer number from an integer, a float (by removing all decimals), or a string (providing the string represents a whole number).
 * `float()` constructs a float number from an integer, a float or a string (providing the string represents a float or an integer).
 * `str()` - constructs a string from a wide variety of data types, including strings, integer literals and float literals.
@@ -180,8 +190,12 @@ A full list can be found [here](https://en.wikipedia.org/wiki/Python_syntax_and_
 
 ### Logical conditions
 
-**Mathematical conditions**
+<details close markdown="block">
+  <summary>
+    Click here to expand
+  </summary>
 
+**Mathematical conditions**
 Python supports simple logical conditions, such as:
 * Equals: `a == b`
 * Does not Equal: `a != b`
@@ -224,8 +238,13 @@ else:
   print("b is equal to a")
 ```
 
+</details>
 
 ### Loops
+<details close markdown="block">
+  <summary>
+    Click here to expand
+  </summary>
 
 A loop is a sequence of instructions that is continually repeated until a certain condition is reached. In Python,
 this can be achieved using `for` or `while` statements.
@@ -275,6 +294,7 @@ while i < 10:
     break
   i += 1
 ```
+</details>
 
 ### Functions
 <details close markdown="block">

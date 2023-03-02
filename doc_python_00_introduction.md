@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Why python?
+title: Why Python?
 parent: Python Programming
 nav_order: 1
 ---

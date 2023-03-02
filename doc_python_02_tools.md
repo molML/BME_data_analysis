@@ -5,13 +5,15 @@ parent: Python Programming
 nav_order: 1
 ---
 
-# Useful tools and packages
+# Useful tools and packages for the data analyst
 {: .no_toc }
 
 
 <p align="center">
-<img src="https://images.pexels.com/photos/4378128/pexels-photo-4378128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width=300>
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Old_tools_collection_%2827204177988%29.jpg" width=600>
 </p>
+
+<sup>Image credits [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Old_tools_collection_%2827204177988%29.jpg)</sup>
 
 ## Contents
 {: .no_toc }

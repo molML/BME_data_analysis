@@ -2,7 +2,7 @@
 layout: default
 title: Writing good Python code
 parent: Python Programming
-nav_order: 1
+nav_order: 99
 ---
 
 # Writing Good Python code

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Principles of good software development
+title: Good software principles
 parent: Advanced programming
-nav_order: 3
+nav_order: 1
 ---
-# Ten principle of good software development
+# Good software principles
 {: .no_toc }
 
 Blablablabla something on the fact that there are no rules that are set in stone, but it is good to know what the heck we are doing.

@@ -2,7 +2,7 @@
 layout: default
 title: Useful tools and packages
 parent: Python Programming
-nav_order: 1
+nav_order: 2
 ---
 
 # Useful tools and packages for the data analyst

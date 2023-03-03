@@ -13,14 +13,13 @@ advisor, part interpreter, and part dictator. You try to capture elusive require
 a way of expressing them so that a mere machine can do them justice. You try to
 document your work so that others can understand it, and you try to engineer your work so
 that others can build on it. What's more, you try to do all this against the relentless ticking
-of the project clock.\ 
-> You work small miracles every day.\
-> It's a difficult job.*
+of the project clock.* 
+> 
+> *You work small miracles every day.*
+> 
+> *It's a difficult job.*
 > 
 > A. Hunt, D. Thomas - The Pragmatic Programmer.
-> 
-Blablablabla something on the fact that there are no rules that are set in stone, but it is good to know what the heck we are doing.
-Below you will find several accepted guidelines. 
 
 
 <details open markdown="block">
@@ -33,8 +32,24 @@ Below you will find several accepted guidelines.
 </details>
 
 ---
+## A Pragmatic philosophy
 
-https://www.cin.ufpe.br/~cavmj/104The%20Pragmatic%20Programmer,%20From%20Journeyman%20To%20Master%20-%20Andrew%20Hunt,%20David%20Thomas%20-%20Addison%20Wesley%20-%201999.pdf
+The expression "Pragmatic Programmer" comes from a [book](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) 
+of Dave Thomas and Andy Hunt, who write:
+> *"it's an attitude, a style, a philosophy of approaching problems and their solutions. They think beyond the immediate problem,
+always trying to place it in its larger context, always trying to be aware of the bigger picture.
+After all, without this larger context, how can you be pragmatic? How can you make
+intelligent compromises and informed decisions?"*
+
+In what follows, we have identified a few characteristics that will allow you to write better code, in a pragmatical way. These are all inspired
+by [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/), where you will
+find more in-depth insights. 
+
+### 'The Cat Ate My Source Code'
+
+### 'The Cat Ate My Source Code'
+
+
 
 ## References
 

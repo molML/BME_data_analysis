@@ -105,9 +105,8 @@ will often lead you to a better final version.
 it can be beneficial to allow the code to speak for itself and exist independently for a time, even if it is not perfect.
 It's natural to want to perfect our work, but sometimes it's best to move on and trust in the inherent strength of the software. Don't worry: it
 could never be perfect.
-3. **Accept that we live an imperfect world** and act accordingly when writing your code. See the 
-[Developing code in an imperfect world](#developing-code-in-an-imperfect-world) section.
-
+3. *Accept that we live an imperfect world* and act accordingly when writing your code. See the 
+[Developing code in an imperfect world](#developing-code-in-an-imperfect-world) section below.
 
 <sup>*</sup> <u>NB!</u> The concept of "good enough" does not rule out the quality, reliability and functionality of the produced code, as well as the
 requirements of the users/problem at hand. 

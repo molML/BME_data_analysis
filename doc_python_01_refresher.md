@@ -48,13 +48,13 @@ Congrats! Now you have installed Python! You can find examples and exercises on 
 [W3schools](https://www.w3schools.com/python/python_getstarted.asp) website, in the 
 [Python Getting Started](https://www.w3schools.com/python/python_getstarted.asp) page.
 
-<sup>*</sup><u>Spoiler Alert!</u> Miniconda will be useful to install additional packages you might need, see the [Tools](doc_python_02_tools) page.
+<sup>*</sup><u>Spoiler Alert!</u> Miniconda will be useful to install additional packages you might need, see the [Tools](doc_python_02_tools.md) page.
 
 ### Nice-to-haves
 
 Other few ingredients will make your life easier and more fun while coding. They are:
-1. A Python IDE, to write better code, faster. Have a look at the [tools](doc_python_02_tools) page, in the IDE section.
-2. A package manager , such as Conda. See [tools](doc_python_02_tools) page.
+1. A Python IDE, to write better code, faster. Have a look at the [tools](doc_python_02_tools.md) page, in the IDE section.
+2. A package manager , such as Conda. See [tools](doc_python_02_tools.md) page.
 3. A computer! 💻
 
 ## Python syntax

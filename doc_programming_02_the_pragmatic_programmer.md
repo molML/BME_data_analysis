@@ -10,8 +10,7 @@ nav_order: 2
 > *Programming is a craft. At its simplest, it comes down to getting a computer to do what you
 want it to do (or what your user wants it to do). As a programmer, you are part listener, part
 advisor, part interpreter, and part dictator. [...] What's more, you try to do all this against the relentless ticking
-of the project clock.* 
-> 
+of the project clock.* \
 > *You work small miracles every day. It's a difficult job.*
 > 
 > A. Hunt, D. Thomas - The Pragmatic Programmer.

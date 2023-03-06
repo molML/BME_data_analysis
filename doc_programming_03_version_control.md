@@ -48,7 +48,7 @@ software projects. Here's how it works:
 1. First, developers create a local repository on their own computer. This repository contains all files and folders for the project.
 2. As changes are made to the code, developers use Git to create *"commits"*. A commit is a snapshot of the current state 
 of the code, along with a brief message describing the changes that were made.
-3. Git uses a "branching" model to allow developers to work on different features or changes in parallel (*branches*). Each branch is 
+3. Git uses a *"branching"* model to allow developers to work on different features or changes in parallel (*branches*). Each branch is 
 a separate copy of the code that can be modified independently.
 4. When a developer is ready to share their changes with others, they *"push"* their commits to a remote repository. This 
 could be a repository hosted on a web-based Git service like GitHub or GitLab (see [section below](#github-and-gitlab)), 
@@ -70,6 +70,33 @@ and is used by millions of developers around the world. You can find detailed in
 [Pro Git](https://git-scm.com/book/en/v2) book. 
 
 ### Installing Git
+The steps to install Git depend on the operating system you are using. Here are the basic steps for the most common operating systems:
+
+**Windows:**
+
+1. Download the Git for Windows installer from the Git website: https://git-scm.com/download/win
+2. Run the installer, following the prompts in the installation wizard.
+3. During the installation process, choose the appropriate options for your needs.
+
+Once the installation is complete, open a Command Prompt or Git Bash terminal and verify the installation by running the command `git --version`.
+
+**macOS:**
+
+1. Install Xcode command-line tools by running `xcode-select --install` in the terminal.
+2. Install Homebrew package manager by running `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.
+3. Install Git by running `brew install git`.
+
+Verify the installation by running the command `git --version`.
+
+**Linux:**
+
+Open the terminal and use your distribution's package manager to install Git. For example, in Ubuntu, you can run `sudo apt-get install git`.
+
+Verify the installation by running the command `git --version`.
+
+That's it! Once Git is installed, you can start using it in your projects.
+
+If you have additional questions or troubles, refer to the original [Git page](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 ### Main Git commands
 Here's a list of some of the main Git commands and what they do:
@@ -126,9 +153,10 @@ that require more advanced features and customizations.
 
 
 
-## References
+## Resources
 
 - [Book] [Pro Git](https://git-scm.com/book/en/v2), S. Chacon and B. Straub, Apress publishing.
+- [Online] [Git and GitHub learning resources](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources) online.
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>
 

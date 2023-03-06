@@ -50,7 +50,8 @@ Then, our group might be for you!
 
 
 Several people have made this document possible, and are thanked for their support:
-* [Meilina Reksoprodjo](https://github.com/MeilinaR).
-* [Rıza Özçelik](https://github.com/rizaozcelik).
+* [Meilina Reksoprodjo](https://github.com/MeilinaR), resources & brainstorming.
+* [Rıza Özçelik](https://github.com/rizaozcelik), resources & brainstorming.
+* [ChatGPT](https://openai.com/blog/chatgpt), writing support. 😎
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

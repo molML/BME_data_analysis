@@ -4,9 +4,13 @@ title: Git and version control
 parent: Advanced programming
 nav_order: 3
 ---
-# Git and version control
+# Git and Version Control
 {: .no_toc }
 
+
+<img src="http://images3.memedroid.com/images/UPLOADED29/5b7d571106c71.jpeg" width=600>
+
+<sup>Image credits [DangerousPizza](https://www.memedroid.com/memes/detail/2465946/Version-control)</sup>
 
 <details open markdown="block">
   <summary>
@@ -40,7 +44,13 @@ complete history, rather than simply checking out the latest snapshot of the fil
 and the system was collaborating through it, any client repository can be used to restore it. Consequently, every clone 
 acts as a complete backup of all the data.
 
-## Git
+In this course, we will be using Git as a DVCS, as it is open-source and community-driven, and offers many options 
+for version control. 
+
+## Version control with Git
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1024px-Git-logo.svg.png" width=300>
+### What is Git?
 
 Git is a distributed version control system that allows developers to track changes to code and collaborate on 
 software projects. Here's how it works:
@@ -118,9 +128,37 @@ Here's a list of some of the main Git commands and what they do:
 | `git stash`    | Temporarily saves changes that are not ready to be committed.                                 |
 | `git tag`      | Creates a tag or label for a specific commit in the repository.                               |
 
-These are just a few of the most commonly used Git commands. There are many more commands and options available depending on your needs and use case.
+These are just a few of the most commonly used Git commands. There are many more commands and options available depending on your needs and use case, take a 
+look at the official [Git website](https://git-scm.com/docs) to get the full list. 💪
 
 
+### Origin of the name Git
+{: .no_toc }
+When Linus Torvalds made his initial commit of Git's code on April 7th 2005, he supplied the commit message:
+
+``` Initial revision of "git", the information manager from hell```
+
+In this commit, he included a file called README. The first paragraph in this file reads:
+
+``` 
+GIT - the stupid content tracker
+
+"git" can mean anything, depending on your mood.
+
+ - random three-letter combination that is pronounceable, and not 
+   actually used by any common UNIX command.  The fact that it is a
+   mispronunciation of "get" may or may not be relevant.
+ - stupid. contemptible and despicable. simple. Take your pick from the 
+   dictionary of slang.
+ - "global information tracker": you're in a good mood, and it actually
+   works for you. Angels sing, and a light suddenly fills the room. 
+ - "goddamn idiotic truckload of sh*t": when it breaks
+
+This is a stupid (but extremely fast) directory content manager.  It  
+doesn't do a whole lot, but what it _does_ do is track directory
+contents efficiently.
+```
+This is just a bonus information, but I thought you should know as a (nerdy) ice-breaker 😜
 
 ## GitHub and GitLab
 GitHub and GitLab are two of the most popular web-based Git repositories used for version control. Both platforms allow 
@@ -148,7 +186,6 @@ It also offers a free tier for individuals and small teams, as well as paid plan
 Both GitHub and GitLab are excellent tools for version control, but their target audiences differ. 
 GitHub is more focused on the needs of the open source community, while GitLab is geared towards businesses and organizations 
 that require more advanced features and customizations.
-
 
 
 

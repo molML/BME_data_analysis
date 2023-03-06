@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Data analysis
-has_children: true
-nav_order: 4
+title: Machine learning
+parent: Data analysis
+nav_order: 2
 ---
+
+# Introduction to machine learning
+{: .no_toc }
 
 # Navigation Structure
 {: .no_toc }

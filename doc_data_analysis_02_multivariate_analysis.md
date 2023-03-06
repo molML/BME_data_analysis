@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Data analysis
-has_children: true
-nav_order: 4
+title: Multivariate analysis
+parent: Data analysis
+nav_order: 2
 ---
+
+# Multivariate analysis
+{: .no_toc }
 
 # Navigation Structure
 {: .no_toc }

@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Data analysis
-has_children: true
-nav_order: 4
+title: Univariate analysis
+parent: Data analysis
+nav_order: 1
 ---
+
+# Univariate analysis
+{: .no_toc }
 
 # Navigation Structure
 {: .no_toc }

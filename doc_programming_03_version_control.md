@@ -42,11 +42,85 @@ acts as a complete backup of all the data.
 
 ## Git
 
+Git is a distributed version control system that allows developers to track changes to code and collaborate on 
+software projects. Here's how it works:
+
+1. First, developers create a local repository on their own computer. This repository contains all files and folders for the project.
+2. As changes are made to the code, developers use Git to create *"commits"*. A commit is a snapshot of the current state 
+of the code, along with a brief message describing the changes that were made.
+3. Git uses a "branching" model to allow developers to work on different features or changes in parallel (*branches*). Each branch is 
+a separate copy of the code that can be modified independently.
+4. When a developer is ready to share their changes with others, they *"push"* their commits to a remote repository. This 
+could be a repository hosted on a web-based Git service like GitHub or GitLab (see [section below](#github-and-gitlab)), 
+or it could be a repository hosted on a local server.
+5. Other developers can then *"pull"* these changes from the remote repository to their own local repositories. They 
+can review the changes and *merge* them into their own branches, resolving any conflicts that arise.
+6. Git also includes tools for resolving conflicts and managing code reviews. Developers can leave comments on commits 
+and pull requests to discuss changes with other team members.
+
+<img src="https://www.red-gate.com/simple-talk/wp-content/uploads/2020/12/branching-diagram.png" width=700>
+
+<sup>Image credits [red-gate.com](https://www.red-gate.com/simple-talk/devops/database-devops/feature-branches-and-pull-requests-with-git-to-manage-conflicts/)</sup>
+
+
+
+Overall, Git provides a powerful set of tools for collaborating on software development projects, while keeping track of 
+changes and ensuring that everyone is working on the same code base. It's a critical tool in modern software development 
+and is used by millions of developers around the world. You can find detailed info in the official 
+[Pro Git](https://git-scm.com/book/en/v2) book. 
 
 ### Installing Git
 
+### Main Git commands
+Here's a list of some of the main Git commands and what they do:
+
+| Command        | Function                                                                                      |
+|----------------|-----------------------------------------------------------------------------------------------|
+| `git init`     | Initializes a new Git repository in your current directory.                                   |
+| `git clone`    | Creates a copy of a Git repository on your local machine.                                     |
+| `git add`      | Adds files to the staging area, preparing them for commit.                                    |
+| `git commit`   | Commits changes to the local repository, with a message describing the changes.               |
+| `git push`     | Uploads local changes to the remote repository.                                               |
+| `git pull`     | Downloads changes from the remote repository to your local repository.                        |
+| `git status`   | Shows the status of your local repository, including changes to files and the current branch. |
+| `git branch`   | Lists all branches in the repository and indicates the current branch.                        |
+| `git checkout` | Switches to a different branch.                                                               |
+| `git merge`    | Combines changes from one branch into another branch.                                         |
+| `git log`      | Displays a log of all commits made in the repository.                                         |
+| `git reset`    | Resets the repository to a previous commit.                                                   |
+| `git stash`    | Temporarily saves changes that are not ready to be committed.                                 |
+| `git tag`      | Creates a tag or label for a specific commit in the repository.                               |
+
+These are just a few of the most commonly used Git commands. There are many more commands and options available depending on your needs and use case.
+
+
 
 ## GitHub and GitLab
+GitHub and GitLab are two of the most popular web-based Git repositories used for version control. Both platforms allow 
+developers to collaborate on projects, manage code, and track changes to code over time. However, there are some differences between the two platforms.
+
+**GitHub** 
+
+GitHub is a cloud-based Git repository hosting service that provides a graphical user interface (GUI) and a range of 
+features such as bug tracking, feature requests, and task management. It is owned by Microsoft and has a large community 
+of users. GitHub is primarily used for open source projects, but it also has paid plans for businesses and organizations 
+that require private repositories. GitHub has a robust ecosystem of third-party integrations that make it easy to integrate with other tools, such as continuous integration and deployment (CI/CD) services.
+
+<img src="https://allvectorlogo.com/img/2021/12/github-logo-vector.png" width=300>
+
+**GitLab**
+
+GitLab is an open-source Git repository management system that is designed to be self-hosted. It provides a 
+web-based GUI that makes it easy to manage Git repositories, track issues, and automate the software development process. 
+GitLab has a more comprehensive feature set than GitHub, including code review tools, and issue tracking. 
+It also offers a free tier for individuals and small teams, as well as paid plans for businesses and larger organizations.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/GitLab_logo.svg/2560px-GitLab_logo.svg.png" width=300>
+
+
+Both GitHub and GitLab are excellent tools for version control, but their target audiences differ. 
+GitHub is more focused on the needs of the open source community, while GitLab is geared towards businesses and organizations 
+that require more advanced features and customizations.
 
 
 

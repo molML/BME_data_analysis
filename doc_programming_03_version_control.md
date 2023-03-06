@@ -134,12 +134,14 @@ look at the official [Git website](https://git-scm.com/docs) to get the full lis
 
 ### Origin of the name Git
 {: .no_toc }
-When Linus Torvalds made his initial commit of Git's code on April 7th 2005, he supplied the commit message:
+
+[Hidden bonus paragraph not included in the TOC - congrats you found it!]
+
+When [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) made his initial commit of Git's code on April 7th 2005, he supplied the commit message:
 
 ``` Initial revision of "git", the information manager from hell```
 
-In this commit, he included a file called README. The first paragraph in this file reads:
-
+In this commit, he included a file called README, whose first paragraph reads as follows:
 ``` 
 GIT - the stupid content tracker
 

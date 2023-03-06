@@ -160,7 +160,7 @@ This is a stupid (but extremely fast) directory content manager.  It
 doesn't do a whole lot, but what it _does_ do is track directory
 contents efficiently.
 ```
-This is just a bonus information, but I thought you should know as a (nerdy) ice-breaker 😜
+We thought you should know as a good ice-breaker among data scientists 😜
 
 ## GitHub and GitLab
 GitHub and GitLab are two of the most popular web-based Git repositories used for version control. Both platforms allow 

@@ -26,9 +26,8 @@ Other key [contributors](#contributors) are acknowledged for their support.
 
 
 ## What you will find here
-Some introduction text, formatted in heading 2 style
-
-## What you will *not* find here
+This course is designed for students with a basic understanding 
+of Python programming 
 
 ## Learning objectives
 

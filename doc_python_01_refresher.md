@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Python Refresher
-parent: Python Programming
-nav_order: 1
+# parent: Python Programming
+nav_order: 2
+
 ---
+
 
 # Python Refresher
 {: .no_toc }
@@ -31,6 +33,22 @@ refresher, no problem, we have you covered! Just keep reading...
 ---
 
 
+
+
+## Why Python?
+
+As stated in the [official page of python](https://www.python.org/doc/essays/blurb/):\
+"Python is one of the world’s most used and most popular programming languages. It’s powerful, versatile, and easy to 
+learn. Python is widely used in various applications, some notable ones:
+- Web development
+- Data Science
+- Data analysis
+- Machine learning
+- Artificial Intelligence (AI)
+- Scripting and tooling"
+
+For this course, we expect you to have basic knowledge of the Python programming language. If you need a refresher, 
+we have you covered! Just keep reading. 
 
 ## Getting started
 ### Installing Python and quickstarting
@@ -564,8 +582,11 @@ This page was inspired by many awesome resources available online, and in partic
 * [W3schools](https://www.w3schools.com/python/python_variables_multiple.asp)
 * [A Byte of Python](https://python.swaroopch.com/)
 
+
 ## Additional resources
-* [Book] [A Byte of Python](https://python.swaroopch.com/):  a free book on programming using the Python language. It serves as a tutorial or guide to the Python language for a beginner audience. 
+* [Book] [A Byte of Python](https://python.swaroopch.com/):  a free book on programming using the Python language. It serves as a tutorial or guide to the Python language for a beginner audience.
 * [Online tutorial] [Learn Python Programming](https://pythonbasics.org/): a website containing materials and exercises for the Python 3 programming language.
+* [Online quizzes] [HackerRank](https://www.hackerrank.com/dashboard), a great platform to test you coding knowledge and solve challenging problems!
+
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

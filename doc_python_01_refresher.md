@@ -50,6 +50,91 @@ learn. Python is widely used in various applications, some notable ones:
 For this course, we expect you to have basic knowledge of the Python programming language. If you need a refresher, 
 we have you covered! Just keep reading. 
 
+## Python pros and cons
+Python is a distinctive programming language that has both advantages and disadvantages, making it a good choice 
+for certain situations and not as good for others. This section will outline the positive attributes of Python. Below, you 
+will find a summary of advantages and disadvantages of Python as a programming language. What follows was inspired by 
+[linode.com](https://www.linode.com/docs/guides/pros-and-cons-of-python/) where you can read more. 
+
+### Advantages
+
+1. *Ease of use.* One of Python's most significant benefits is its ease of use. Its syntax is simple, concise, 
+and straightforward, making it highly readable and easy to debug. Python's control structures are intuitive and 
+easy to use. Moreover, Python is dynamically typed, which eliminates the need to declare the type of each 
+variable, resulting in more efficient and productive programming.
+
+2. *Learning curve.* Python also has a gentle learning curve, making it a good option for 
+individuals learning to program. Programmers who switch to Python from other languages such as C or Java can quickly reach peak efficiency, and the Python package includes a useful Integrated Development and Learning Environment (IDLE).
+
+3. *Versatility.* Python is a versatile, general-purpose language that supports both procedural and 
+object-oriented programming. Its built-in and third-party packages make it suitable for a wide range of tasks. 
+Python is dominant in the areas of data science and machine learning and is widely used for back-end web development 
+and the Internet of Things (IoT). It is even possible to embed Python code into projects written in other languages, 
+such as C++, and vice versa.
+
+4. *Rapid development and efficiency*. Python is efficient for rapid development because it is easy to use and 
+does not require compilation, which saves time. Python programs are often much shorter than equivalent programs 
+in other languages, making it an excellent choice for constructing prototypes quickly in a rapid software 
+development environment. 
+
+5. *Portability*. Python is also true portable, meaning it can be written once and run anywhere. 
+Python does not need to be compiled in advance, so users run a true Python program rather than a Python executable. 
+The program is not compiled until it is run using the platform-specific PVM. This means that any Python program can 
+potentially run on any system that supports Python.
+
+6. *No compile process*. Python's interpreted language does not require a separate compiler or time-consuming 
+compilation step, so programs can be run as soon as they are written. This makes Python programs easy to write, 
+debug, and change incrementally. Additionally, Python's automatic memory allocation eliminates the need for developers 
+to assign free space in memory. A garbage collector recycles memory from discarded objects, eliminating worries about 
+scribblers, memory leaks, invalid pointer references, or object size.
+
+7. *Automatic memory allocation*. Python has a large number of built-in compound objects, including lists, sets, 
+and record-like dictionaries, each providing a collection of methods for easy processing. Moreover, Python has an 
+extensive library containing tens of thousands of functions that can be used for network communications, 
+web integration, data processing, and hardware interactions. This library reduces the time spent writing programs 
+as many necessary routines have already been written.
+
+8. *Extensive built-in objects and libraries*. Python has many free external libraries that developers 
+can access in addition to its extensive built-in library. These third-party libraries are easy to import and install 
+using Python's pip package manager, which can be downloaded from the Python Package Index (PyPI) repository. 
+PyPI also allows developers to publish their packages.
+
+9. *Third-party library availability*. All Python releases are available for free under an open-source license. 
+Python can even be modified and re-distributed at no cost, making it a low-cost option for developers. 
+
+11. *User base*. Python has a large, active, and passionate community of users, making it easy to find learning 
+materials and other resources, ask questions, search for jobs, hire additional developers, and meet other Python 
+programmers.
+
+### Disadvantages
+
+Despite its many advantages, Python also has a few notable disadvantages. These will be discussed in the next section.
+
+1. *Slow Performance.* Compared to more efficient programming languages like C and Java, Python is significantly slower 
+due to its interpretation and dynamic typing. This makes it unsuitable for situations where speed is critical.
+
+2. *High Memory Usage.* Python is not optimized to reduce memory and can consume up to ten times more RAM than 
+programs written in more frugal languages. The garbage collector in Python cannot immediately gather all discarded resources, which also reduces the amount of available memory. This makes it unsuitable for memory-constrained environments.
+
+3. *Difficulties in Avoiding Runtime Errors.* Python is not compiled until runtime and is dynamically typed, which 
+means that many errors that would be caught by the compiler in other languages do not appear until the program runs.
+
+4. *Limited Traction in Mobile and Desktop Applications.* Python has not made significant progress in the mobile 
+space due to its slower speed and high memory usage. Although there are some Python development tools for mobile apps, they are more limited than frameworks for other languages. Python is also not very popular for front-end applications in client desktops.
+
+5. *Not Optimized for Database Access.* Python lacks a powerful, high-quality, easy-to-use interface for 
+working with databases, which makes it more challenging to work with databases than some other applications. 
+It can still be used if the database reads and writes are relatively straightforward, but it is not the best choice 
+for applications that have complex interactions with a large corporate database.
+
+6. *No Multithreading Support.* Python does not support multithreading due to its architecture. Instead, it relies on 
+multiprocessing, where each "thread" runs in a separate Python process. This can result in uneven performance and 
+relies on the operating system to schedule and balance the processes.
+
+7. *Prone to Overuse or Misuse.* Python's simplicity can sometimes lead to overuse or misuse, especially for tasks 
+where it is not the best option. While it is great for rapid development and prototypes, organizations should not 
+overlook proper software development principles.
+
 ## Getting started
 ### Installing Python and quickstarting
 There are many ways to install Python. We recommend using [Miniconda](https://docs.conda.io/en/latest/miniconda.html),<sup>*</sup> 

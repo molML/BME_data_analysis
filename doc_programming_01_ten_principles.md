@@ -39,24 +39,6 @@ These are some general guidelines on how to keep your code simple:
 
 Always Keep It Simple, Stupid (KISS) allows you and fellow programmers to identify bugs quickly. It also helps you modify and make further changes to the code. It is one of the most common lean principles in agile software engineering.
 
-## 2. You Aren't Gonna Need It (YAGNI)
-
-You Aren't Gonna Need It (YAGNI) Software Development Principles | Laneways.agency
-Source: Jexan
-Most programmers fall into the pit of trying to implement all the functionalities at once, from the word go. In the end, some or most of these functionalities become useless.
-
-As an upcoming software developer, always start by adding just a few methods to a class. After that, as your project starts taking shape and new demands arise, you can add more functionalities. That way, you’ll achieve a lean development software.
-
-YAGNI saves time, efforts, and costs that you would have wasted in trying to understand or debug the code.
-
-## 3. Measure Twice and Cut Once
-Measure Twice and Cut Once Software Development Principles | Laneways.agency
-Source: Cutthroat Journal
-The development life cycle’s requirement stage usually introduces more than 50% coding issues if not done well. Therefore, be prepared by developing a systematic approach to the coding process.
-
-Double-check all the project’s requirements to ensure you don’t leave out or add too much in your code. After that, make blueprints that will guide the whole process to achieve high-quality coding throughout. Always test your project from the word go to ensure everything is fine.
-
-This principle gives much more predictable outcomes, especially if the project’s cost is already high. You’ll save yourself headaches that come with deleting or adding code lines to meet requirements.
 
 ## 4. Don’t Repeat Yourself (DRY)
 Don’t Repeat Yourself (DRY) Software Development Principles | Laneways.agency

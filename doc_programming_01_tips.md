@@ -20,7 +20,7 @@ Below you will find several accepted guidelines.
 {:toc}
 </details>
 
-# Building reliable programs
+## Building reliable programs
 
 Developing reliable programs is important in data analysis because it ensures accurate and trustworthy results. Unreliable 
 programs can lead to errors and inconsistencies in data analysis, which can undermine the credibility of the results. Reliable 
@@ -37,8 +37,84 @@ A reliable program is:
 
 In what follows, we will give you some tips on how to build programs that are as reliable as possible. 
 
+## Tips for building reliable programs
 
-## Tip 1. Keep it Simple, Stupid! (KISS)
+### Tip 1. Pay attention to algorithm design
+<details close markdown="block">
+  <summary>
+    Expand
+  </summary>
+
+<img src="https://image.jimcdn.com/app/cms/image/transf/dimension=4000x3000:format=png/path/s29986025e909bb6f/image/i41a39f035fa11d70/version/1641979489/enough-design-upfront-vor-big-design-upfront.png" width=600>
+https://www.agileagreement.com/2020/07/21/enough-design-upfront-vor-big-design-upfront/
+<sup>Image credits [Agile Agreement](https://www.agileagreement.com/2020/07/21/enough-design-upfront-vor-big-design-upfront/)</sup>
+
+Algorithm design is important because it determines how efficiently and accurately a program solves a problem. A well-designed 
+algorithm can reduce the time and resources required to complete a task, improve the quality of results, and make programs more 
+reliable and robust. In contrast, a poorly designed algorithm can result in errors, slow down program execution, and waste resources. 
+Effective algorithm design involves understanding the problem requirements, choosing appropriate data structures and algorithms, 
+and optimizing the algorithm for performance and accuracy. By focusing on algorithm design, developers can create more efficient 
+and effective programs that provide better outcomes for users.
+
+When it comes to algorithm design, there are many 'flavours' of it, that vary in terms of the level of planning and documentation involved:
+
+**1. NDUF** (No Design Up Front).
+
+NDUF is an approach to software development that focuses on creating software through a 
+process of continuous iteration and feedback. This methodology is often used in Agile software development, 
+where the emphasis is on delivering working software quickly and making changes in response to feedback.
+
+Advantages:
+   - Allows for flexibility and adaptation to changing requirements
+   - Can be more efficient in delivering working software quickly
+   - Can encourage collaboration and communication among team members
+
+Disadvantages:
+- May result in incomplete or inconsistent documentation
+- Can lead to technical debt or code that is difficult to maintain over time
+- May require more effort to ensure overall project cohesiveness
+
+**2. EDUF** (Exploratory Design Up Front) 
+
+EDUF is an approach that involves creating a high-level design for the software before 
+development begins. This design is then used to guide the development process, with modifications made as necessary based 
+on feedback and testing.
+
+Advantages:
+- Provides a clear plan for software development
+- Can help identify potential issues early in the development process
+- Allows for more efficient use of resources
+
+Disadvantages:
+- May lead to rigidity in the development process
+- Can result in over-emphasis on planning and documentation rather than actual development
+- May not be well-suited for projects with rapidly changing requirements
+
+**3. BDUF** (Big Design Up Front) 
+
+BDUF is an approach that involves creating a detailed design for the software before development 
+begins. This design is then used to guide the development process, with little deviation from the original plan.
+
+Advantages:
+- Provides a comprehensive and detailed plan for software development
+- Can help identify potential issues early in the development process
+- Can ensure consistency in the development process
+
+- Disadvantages:
+- May lead to inflexibility in responding to changes in requirements
+- Can result in over-emphasis on planning and documentation rather than actual development
+- Can be time-consuming and resource-intensive
+
+NDUF, EDUF, and BDUF each have their own set of advantages and disadvantages. The choice between these methodologies depends on the specific needs of the project and the team's preferences and capabilities. NDUF and EDUF are generally more suitable for projects with changing requirements, while BDUF is more suitable for projects with well-defined requirements that require a high level of planning and documentation.
+
+</details>
+
+### Tip 2. Keep it Simple, Stupid! (KISS)
+
+<details close markdown="block">
+  <summary>
+    Expand
+  </summary>
 
 KISS (Keep It Simple, Stupid!) is a design principle noted by the U.S. Navy in the [1960s](https://en.wikipedia.org/wiki/KISS_principle#cite_note-TDal-1). 
 According to the KISS principle, most systems work best if they are simple rather than complicated. 
@@ -54,6 +130,17 @@ These are some general guidelines on how to keep your code simple:
 
 Always Keep It Simple, Stupid (KISS) allows you and fellow programmers to identify bugs quickly. It also helps you modify and make further changes to the code. It is one of the most common lean principles in agile software engineering.
 
+</details>
+
+## Tip 3. Test, debug, test (again!)
+
+<details close markdown="block">
+  <summary>
+    Expand
+  </summary>
+
+
+</details>
 
 ## 4. Don’t Repeat Yourself (DRY)
 Don’t Repeat Yourself (DRY) Software Development Principles | Laneways.agency

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: __Bonus - Python Refresher
-# parent: Python Programming
-nav_order: 99
+title: Python Refresher
+parent: Getting started
+nav_order: 0
 
 ---
 

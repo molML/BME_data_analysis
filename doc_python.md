@@ -9,7 +9,7 @@ nav_order: 3
 {: .no_toc }
 
 Here, you will find elements of what you need to get you started with python for biomedical data analysis. If your Python
-is rusty, no worries - we have you covered! Have a look at the [Python refresher](doc_python_01_refresher.md) page.
+is rusty, no worries - we have you covered! Have a look at the [Python refresher](doc_getting_started_00_refresher.md) page.
 
 Although
 this section is not meant to be extensive, we hope that here you will find all the inspiration you need to continue

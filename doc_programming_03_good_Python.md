@@ -9,7 +9,7 @@ nav_order: 3
 {: .no_toc }
 
 
-<img src="https://www.explainxkcd.com/wiki/images/0/06/bad_code.png" width=500>
+<img src="https://www.explainxkcd.com/wiki/images/0/06/bad_code.png" width=800>
 
 <sup>Image credits [xkcd](https://www.explainxkcd.com/wiki/index.php/1926:_Bad_Code)</sup>
 
@@ -144,7 +144,7 @@ These are just a few examples of how you can make your code more Pythonic. In ge
 readable, and takes advantage of the language's built-in features and libraries.
 
 ## Additional resources and references
-* [Webpage] [5 Things That Will Instantly Make Your Python Code More Pythonic](https://towardsdatascience.com/5-things-that-will-instantly-make-your-python-code-more-pythonic-198c6d371c80
+* [Webpage] [5 Things That Will Instantly Make Your Python Code More Pythonic](https://towardsdatascience.com/5-things-that-will-instantly-make-your-python-code-more-pythonic-198c6d371c80)
 * [Webpage] [THe Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/style/)
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

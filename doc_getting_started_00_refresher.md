@@ -162,6 +162,11 @@ Other few ingredients will make your life easier and more fun while coding. They
 
 ## Python syntax
 
+<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*FGz8gU3nQILSesYT.png" width=300>
+
+<sup>Image credits [https://susanne-vanwagensveld.medium.com/](https://susanne-vanwagensveld.medium.com/how-memes-can-help-you-learn-python-d69826db6cbf)</sup>
+
+
 ### Basic syntax
 <details close markdown="block">
   <summary>

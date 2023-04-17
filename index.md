@@ -5,7 +5,7 @@ nav_order: 1
 ---
 # Advanced programming and biomedical data analysis
 {: .no_toc }
-This is the material for the 8CC00 course at TU/e - Welcome!
+This is the material for the 8CC00 course (TU/e, Biomedical Engineering Department) -- Welcome!
 
 This notebook was made with ❤️ by [Francesca Grisoni](https://www.tue.nl/en/research/researchers/francesca-grisoni/).\
 Other key [contributors](#contributors) are acknowledged for their support. 
@@ -13,9 +13,6 @@ Other key [contributors](#contributors) are acknowledged for their support.
 ## Roadmap of this website
 {: .no_toc }
 
-<img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4214955.jpg" width=600>
-
-<sup>Image credits [ColourBox](https://www.colourbox.com/image/old-vintage-compass-on-ancient-map-image-4214955) </sup>
 <details open markdown="block">
   <summary>
     Table of contents
@@ -24,6 +21,11 @@ Other key [contributors](#contributors) are acknowledged for their support.
 - TOC
 {:toc}
 </details>
+
+
+<img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4214955.jpg" width=600>
+
+<sup>Image credits [ColourBox](https://www.colourbox.com/image/old-vintage-compass-on-ancient-map-image-4214955) </sup>
 
 ---
 
@@ -52,7 +54,7 @@ The notebook is divided into four sections:
 Although these sections have been organized in a somewhat logical order, there's no right or wrong way to approach their content.
 Thus feel free to skip, and go back and forth to whatever might need you. Below most pages, I've listed resources that might
 help you learn faster/more effectively on specific topics of your choice. With the Search function 🔎, you should be able to find what you need, faster.
-Also, don't forget to check out our [Bonus](doc_bonus_tools.md) section!
+Also, don't forget to check out our Bonus section!
 
 ## Thesis opportunities
 Are you eager to apply data science, programming and machine learning to relevant problems in chemical biology and drug discovery?

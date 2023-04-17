@@ -4,6 +4,7 @@ title: __ Bonus - Selected packages
 has_children: false
 nav_order: 99
 ---
+
 # Bonus page: selected Python packages
 {: .no_toc }
 Below, you will find a collection of Python packages that might be useful to your journey into advanced python programming

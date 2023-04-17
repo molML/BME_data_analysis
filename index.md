@@ -10,9 +10,12 @@ This is the material for the 8CC00 course at TU/e - Welcome!
 This notebook was made with ❤️ by [Francesca Grisoni](https://www.tue.nl/en/research/researchers/francesca-grisoni/).\
 Other key [contributors](#contributors) are acknowledged for their support. 
 
-## Table of contents
+## Roadmap of this website
 {: .no_toc }
 
+<img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4214955.jpg" width=600>
+
+<sup>Image credits [ColourBox](https://www.colourbox.com/image/old-vintage-compass-on-ancient-map-image-4214955) </sup>
 <details open markdown="block">
   <summary>
     Table of contents
@@ -24,35 +27,32 @@ Other key [contributors](#contributors) are acknowledged for their support.
 
 ---
 
-## 8CC00 course
-The 8CC00 course is designed for students with a basic understanding of Python programming who are interested in applying 
-their skills to biomedical data analysis. The course will focus on improving students' ability to structure 
-complex code and interpret data in a meaningful way. The course will cover advanced programming concepts such as 
-object-oriented programming, data structures, and algorithms, as well as data analysis techniques such as multivariate analysis, 
-data visualization, and machine learning. The course will include hands-on programming exercises and projects that will 
-challenge students to apply their skills in a biomedical context. Upon completion of this course, students will have 
-developed the skills and confidence necessary to tackle complex programming and data analysis problems in a biomedical setting.
+## The course
+If you have a basic understanding of Python programming and are interested in applying 
+your skills to biomedical data analysis, then you've come to the right place. 
+The course will focus on improving your ability to :
+1. Write and structure complex code.
+2. Interpret complex biomedical data in a meaningful way. 
+3. Have the right basis to further improve your coding and analysis skills.
 
-## What you will find here
+Upon completion of this course, you should have developed the skills and confidence necessary to tackle complex programming 
+and data analysis problems in a biomedical setting.
+
+## How to use this website
+
 This interactive webpage is aimed to be an additional (non-exhaustive) support to your learning and your voyage in the world
 of data science! Here you will find code examples, explanations, and additional resources that might come in handy. 
 
-## Learning objectives
-1. Mastering Advanced Programming Concepts. One learning goal for students taking this course would be to develop a 
-strong understanding of advanced programming concepts, such as object-oriented programming, data structures, and algorithms. 
-Students should aim to become proficient in writing complex code, structuring programs in a modular fashion, and implementing 
-efficient algorithms to solve problems.
+The notebook is divided into four sections:
+* [Getting started](doc_getting_started.md): here you will find all the necessary to approach advanced Python programming. Make sure you are up-to-speed with all these tools and their functioning before starting your adventure with the course!
+* [Advanced programming](doc_programming.md): this section contains guiding principles to build advanced and reliable Python code. 
+* [Object-oriented programming](doc_OOP.md): a primer on how to get started when using OOP principles in Python, and why it matters.
+* [Data analysis](doc_data_analysis.md): here you will find key information on how to analyze complex and multivariate biomedical data.
 
-2. Developing Data Analysis Skills. Another learning goal for students will be to improve their data analysis skills. 
-This includes developing a better understanding of multivariate analysis techniques, data visualization, and interpretation. 
-Students should aim to become proficient in identifying trends and patterns in biomedical data, interpreting results, and 
-presenting their findings in a clear and concise manner.
-
-3. Applying Skills to Biomedical Problems. The ultimate goal for students taking this course should be to apply their 
-programming and data analysis skills to solve real-world biomedical problems. This includes working on hands-on 
-programming exercises and projects that challenge them to apply their skills in a biomedical context. Students 
-should aim to develop the skills and confidence necessary to tackle complex programming and data analysis problems in a 
-biomedical setting, and ultimately make a meaningful contribution to the field.
+Although these sections have been organized in a somewhat logical order, there's no right or wrong way to approach their content.
+Thus feel free to skip, and go back and forth to whatever might need you. Below most pages, I've listed resources that might
+help you learn faster/more effectively on specific topics of your choice. With the Search function 🔎, you should be able to find what you need, faster.
+Also, don't forget to check out our [Bonus](doc_bonus_tools.md) section!
 
 ## Thesis opportunities
 Are you eager to apply data science, programming and machine learning to relevant problems in chemical biology and drug discovery?

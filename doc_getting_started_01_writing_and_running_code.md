@@ -7,7 +7,7 @@ nav_order: 0
 ---
 
 
-# Writing and running Python code
+# IDEs and interactive notebooks
 {: .no_toc }
 
 
@@ -52,11 +52,6 @@ Many online guides exist to choose IDEs (e.g., [this one](https://www.educative.
 [this other one](https://www.simplilearn.com/tutorials/python-tutorial/python-ide)). Here, you will just find a (non-extensive)
 collection of selected IDEs that might be for you. This might help you find the right IDEs, matching your personal taste and needs.
 
-<details close markdown="block">
-  <summary>
-    Expand selected IDEs
-  </summary>
-
 ### Visual Studio Code
 [Visual Studio Code](https://code.visualstudio.com/) (VS Code) is a full-featured code editor available for Linux, Mac OS X, and Windows. 
 It is small and light-weight, but full-featured, as well as open-source, extensible, and configurable for almost any task.
@@ -80,7 +75,6 @@ necessarily for other coding tasks.
 
 ![img.png](ide_spyder/ides_spyder.png)
 
-</details>
 
 ## Interactive notebooks
 
@@ -100,6 +94,11 @@ This allows for an iterative and interactive development process, where users ca
 real-time. Users can also create visualizations, include documentation, and collaborate with others by sharing their 
 notebooks.
 
+
+<p align="center">
+<img src="https://arogozhnikov.github.io/images/jupyter/example-notebook.png" width=800>
+</p>
+
 ### Google Colab
 Google Colab is a cloud-based version of Jupyter Notebooks that is provided by Google. It allows users 
 to create and share interactive notebooks using Google's cloud infrastructure. Google Colab supports Python 2 and 3 
@@ -109,6 +108,10 @@ users to import and export notebooks from Jupyter Notebooks.
 One of the advantages of Google Colab is that it provides free access to GPUs and TPUs, which can significantly speed 
 up computations for machine learning and other applications. Google Colab also allows users to collaborate in real-time, 
 making it an ideal platform for group projects and online courses.
+
+<p align="center">
+<img src="https://dense-insight-blog.s3.ap-northeast-1.amazonaws.com/wordpress/wp-content/uploads/2020/08/19063605/colab_welcome_page.png" width=800>
+</p>
 
 ## Pros and Cons of IDEs vs Interactive Notebooks 
 
@@ -139,7 +142,6 @@ making it an ideal platform for group projects and online courses.
 - Notebooks can be less suitable for version control than more traditional development environments, which can make it difficult to track changes over time.
 
 In summary, IDEs and interactive notebooks each have their own set of pros and cons. IDEs offer more advanced development environments, while interactive notebooks allow for an iterative and interactive development process. The choice between an IDE or an interactive notebook depends on the specific needs of the project, and many developers use a combination of both depending on the task at hand.
-## Additional resources
 
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

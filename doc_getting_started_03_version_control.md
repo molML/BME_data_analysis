@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Git and version control
-parent: Advanced programming
+parent: Getting started
 nav_order: 3
 ---
 # Git and Version Control

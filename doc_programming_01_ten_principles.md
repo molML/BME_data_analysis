@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Good software principles
+title: Tips for building reliable programs
 parent: Advanced programming
 nav_order: 1
 ---
-# Good software principles
+# Tips for building reliable programs
 {: .no_toc }
 
 Blablablabla something on the fact that there are no rules that are set in stone, but it is good to know what the heck we are doing.
@@ -20,10 +20,25 @@ Below you will find several accepted guidelines.
 {:toc}
 </details>
 
----
+# Building reliable programs
+
+Developing reliable programs is important in data analysis because it ensures accurate and trustworthy results. Unreliable 
+programs can lead to errors and inconsistencies in data analysis, which can undermine the credibility of the results. Reliable 
+programs also help to increase efficiency and save time, allowing analysts to focus on insights and decision-making rather 
+than debugging and fixing errors. Additionally, reliable programs can help maintain the reputation of analysts and organizations, 
+which is important in building and retaining trust among clients and stakeholders.
+
+A reliable program is:
+
+- Modular – you can break it into pieces and test each piece separately.
+- Robust – nonsensical input will cause it to fail in a predictable way.
+- Deterministic – if it fails, you can easily make it fail in the same way again.
+- Testable – you can look inside and understand why it’s doing what it does. 
+
+In what follows, we will give you some tips on how to build programs that are as reliable as possible. 
 
 
-## 1. Keep it Simple, Stupid! (KISS)
+## Tip 1. Keep it Simple, Stupid! (KISS)
 
 KISS (Keep It Simple, Stupid!) is a design principle noted by the U.S. Navy in the [1960s](https://en.wikipedia.org/wiki/KISS_principle#cite_note-TDal-1). 
 According to the KISS principle, most systems work best if they are simple rather than complicated. 

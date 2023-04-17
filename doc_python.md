@@ -24,6 +24,6 @@ In this section, you will find information on Python programming for biomedical 
 
 - If you are interested in **useful tools and packages** to start from, have a look at the [Useful Tools and Packages](doc_python_02_tools.md) session.
 - The section [Object-oriented programming with Python](doc_python_03_object_oriented_programming.md) will provide you with insights into **object-oriented programming**, and how to use it within Python.
-- Finally, if you want to **hone your Python skills** and write 'Pythonic code', you can have a look at the [Writing good Python code](doc_python_99_style.md) page.
+- Finally, if you want to **hone your Python skills** and write 'Pythonic code', you can have a look at the [Writing good Python code](doc_programming_03_good_Python.md) page.
 
 Have fun!

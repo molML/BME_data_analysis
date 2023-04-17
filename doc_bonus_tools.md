@@ -4,9 +4,14 @@ title: __ Bonus - Selected packages
 has_children: false
 nav_order: 99
 ---
-
+# Bonus page: selected Python packages
+{: .no_toc }
 Below, you will find a collection of Python packages that might be useful to your journey into advanced python programming
 and data analysis. This list is not exhaustive but it should cover a good ground!
+
+<p align="center">
+<img src="https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/light%20blue%20gift%20box%20on%20light%20blue%20background-7944-da9c5f12366780c66aedffff40b250d0@1x.jpg" width=600>
+</p>
 
 <details open markdown="block">
   <summary>

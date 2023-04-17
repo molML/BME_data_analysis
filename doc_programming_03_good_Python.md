@@ -87,37 +87,43 @@ You can know more on the official [PEP8](https://peps.python.org/pep-0008/) page
 
 ## Make your code more Pythonic
 
-Can you provide suggestion on how to make the code more Pythonic?
+1. Use List Comprehensions:
+List comprehensions allow you to create new lists based on existing ones using a concise syntax. For example, 
+instead of using a for loop to create a new list of squares, you can use a list comprehension like this:
 
-Use List Comprehensions:
-List comprehensions allow you to create new lists based on existing ones using a concise syntax. For example, instead of using a for loop to create a new list of squares, you can use a list comprehension like this:
-css
-Copy code
+```
 squares = [x**2 for x in range(10)]
-Use Generators:
-Generators are a way to create iterators in a concise way. They allow you to generate a sequence of values on-the-fly instead of creating the entire sequence upfront. This can be useful when dealing with large datasets or when memory is a concern. For example:
-csharp
-Copy code
+```
+
+2. Use Generators:
+Generators are a way to create iterators in a concise way. They allow you to generate a sequence of values on-the-fly instead 
+of creating the entire sequence upfront. This can be useful when dealing with large datasets or when memory is a concern. For example:
+```
 even_numbers = (x for x in range(10) if x % 2 == 0)
-Use Context Managers:
+```
+3. Use Context Managers:
 Context managers are a way to manage resources like files or database connections in a safe and efficient way. They ensure that resources are properly initialized and cleaned up after use. For example:
-csharp
-Copy code
+```
 with open('myfile.txt', 'r') as f:
     data = f.read()
-Use Default Arguments:
+```
+
+4. Use Default Arguments:
 Default arguments allow you to provide a default value for a function parameter. This can simplify your code by eliminating the need for conditional statements to handle missing arguments. For example:
-python
-Copy code
+
+
+```
 def greet(name='World'):
     print(f'Hello, {name}!')
 
 greet() # outputs 'Hello, World!'
 greet('Alice') # outputs 'Hello, Alice!'
-Use Decorators:
+```
+
+5. Use Decorators:
 Decorators allow you to modify the behavior of a function or class without changing its source code. This can be useful for adding functionality like logging, caching, or authentication. For example:
-python
-Copy code
+
+```
 def memoize(func):
     cache = {}
 
@@ -133,8 +139,12 @@ def fibonacci(n):
     if n in (0, 1):
         return n
     return fibonacci(n-1) + fibonacci(n-2)
-These are just a few examples of how you can make your code more Pythonic. In general, try to write code that is concise, readable, and takes advantage of the language's built-in features and libraries.
-https://towardsdatascience.com/5-things-that-will-instantly-make-your-python-code-more-pythonic-198c6d371c80
-https://docs.python-guide.org/writing/style/
+```
+These are just a few examples of how you can make your code more Pythonic. In general, try to write code that is concise, 
+readable, and takes advantage of the language's built-in features and libraries.
+
+## Additional resources and references
+* [Webpage] [5 Things That Will Instantly Make Your Python Code More Pythonic](https://towardsdatascience.com/5-things-that-will-instantly-make-your-python-code-more-pythonic-198c6d371c80
+* [Webpage] [THe Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/style/)
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

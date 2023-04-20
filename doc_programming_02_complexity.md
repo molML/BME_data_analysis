@@ -90,12 +90,13 @@ Cyclomatic complexity is calculated by counting the number of decision points in
 loops, and adding one to that count. Each decision point represents a branch in the program's control flow, and each 
 additional branch increases the complexity of the code.
 
-In mathematical terms, if we denote the number of decision points as "D", then the cyclomatic complexity is given by:
+In mathematical terms, the cyclomatic number (*V(G)*) for a single method or program can be computed as: 
 
-M = D + 1
+*V(G)* = *E* - *N* + 2
+where *E* is the number of edges, and *N* is the number of nodes in the graph. If you're looking at a shortcut on how to 
+compute the cyclomatic complexity, have a look at the slides ;) 
 
-So if a program has, say, 10 decision points, its cyclomatic complexity would be 11. This provides a simple way to 
-measure the complexity of a program's control flow and identify areas that may require attention or refactoring to 
+This provides a simple way to measure the complexity of a program's control flow and identify areas that may require attention or refactoring to 
 improve its readability and maintainability.
 
 

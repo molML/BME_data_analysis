@@ -294,7 +294,15 @@ method `use_tools`. The `Ape` class inherits from `Primate` and has an additiona
 Each class has a speak method, which is overridden in each subclass with a more specific message. The `__init__` methods of each class use 
 `super()` to call the parent class's `__init__` method and add any additional  attributes specific to that subclass.
 
-### OOP commands cheatsheet
+## Live tutorial 
+
+You will find a step-by-step example of object-oriented-programming after lecture 3 (May 15th). Hang in there!
+
+
+<img src="https://wpamelia.com/wp-content/uploads/2019/06/loading1.jpg" width=400>
+
+
+## OOP commands cheatsheet
 
 Here's a selection of main commands for OOP in Python, for your convenience:
 

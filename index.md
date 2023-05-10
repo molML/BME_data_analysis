@@ -64,7 +64,7 @@ Then, our group might be for you!
 
 ## Contributors
 
-Several people have made this website possible, and they are thanked for their support:
+Several people have supported the making of this website, and are thanked for their support:
 * [Meilina Reksoprodjo](https://github.com/MeilinaR), resources & brainstorming, energy and persistence.
 * [Rıza Özçelik](https://github.com/rizaozcelik), resources, brainstorming and video tutorial on OOP.
 * [ChatGPT](https://openai.com/blog/chatgpt), writing support. 😎

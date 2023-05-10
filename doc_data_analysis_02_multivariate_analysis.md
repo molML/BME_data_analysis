@@ -22,6 +22,13 @@ nav_order: 2
 
 ---
 
+## What are multivariate data?
+
+## Multivariate data analysis
+
+### Principal component analysis
+
+### Clustering
 
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

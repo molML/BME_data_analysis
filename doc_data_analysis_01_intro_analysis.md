@@ -21,8 +21,13 @@ nav_order: 1
 
 ---
 
+## How to think about data
 
-## Noise and error in biomedical data
+
+## Things to keep in mind
+
+
+### Noise and error in biomedical data
 
 Errors and noise are two common sources of variability that can impact the accuracy and reliability of biomedical data. 
 Understanding the differences between these two types of variability is crucial for ensuring that research findings and 
@@ -49,6 +54,16 @@ consider both sources of variability when analyzing and interpreting data.
 By understanding the differences between these two types of variability and implementing appropriate strategies for minimizing 
 their effects, researchers and data analysis can ensure that their findings and decisions are based on data that are as high-quality, 
 accurate, and reliable as possible.
+
+### Simpson's paradox
+
+
+### Correlation vs causation
+
+### The Clever Hans effect
+
+## Tips on data visualization
+
 
 
 

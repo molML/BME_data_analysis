@@ -46,7 +46,7 @@ This interactive webpage is aimed to be an additional (non-exhaustive) support t
 of data science! Here you will find code examples, explanations, and additional resources that might come in handy. 
 
 The notebook is divided into four sections:
-* [Getting started](doc_getting_started): here you will find all the necessary to approach advanced Python programming. Make sure you are up-to-speed with all these tools and their functioning before starting your adventure with the course!
+* [Getting started](doc_getting_started.html): here you will find all the necessary to approach advanced Python programming. Make sure you are up-to-speed with all these tools and their functioning before starting your adventure with the course!
 * [Advanced programming](doc_programming): this section contains guiding principles to build advanced and reliable Python code. 
 * [Object-oriented programming](doc_OOP): a primer on how to get started when using OOP principles in Python, and why it matters.
 * [Data analysis](doc_data_analysis): here you will find key information on how to analyze complex and multivariate biomedical data.

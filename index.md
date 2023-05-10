@@ -46,10 +46,10 @@ This interactive webpage is aimed to be an additional (non-exhaustive) support t
 of data science! Here you will find code examples, explanations, and additional resources that might come in handy. 
 
 The notebook is divided into four sections:
-* [Getting started](doc_getting_started.md): here you will find all the necessary to approach advanced Python programming. Make sure you are up-to-speed with all these tools and their functioning before starting your adventure with the course!
-* [Advanced programming](doc_programming.md): this section contains guiding principles to build advanced and reliable Python code. 
-* [Object-oriented programming](doc_OOP.md): a primer on how to get started when using OOP principles in Python, and why it matters.
-* [Data analysis](doc_data_analysis.md): here you will find key information on how to analyze complex and multivariate biomedical data.
+* [Getting started](doc_getting_started.html): here you will find all the necessary to approach advanced Python programming. Make sure you are up-to-speed with all these tools and their functioning before starting your adventure with the course!
+* [Advanced programming](doc_programming): this section contains guiding principles to build advanced and reliable Python code. 
+* [Object-oriented programming](doc_OOP): a primer on how to get started when using OOP principles in Python, and why it matters.
+* [Data analysis](doc_data_analysis): here you will find key information on how to analyze complex and multivariate biomedical data.
 
 Although these sections have been organized in a somewhat logical order, there's no right or wrong way to approach their content.
 Thus feel free to skip, and go back and forth to whatever might need you. Below most pages, I've listed resources that might
@@ -64,10 +64,9 @@ Then, our group might be for you!
 
 ## Contributors
 
-
-Several people have made this document possible, and are thanked for their support:
-* [Meilina Reksoprodjo](https://github.com/MeilinaR), resources & brainstorming.
-* [Rıza Özçelik](https://github.com/rizaozcelik), resources & brainstorming.
+Several people have made this website possible, and they are thanked for their support:
+* [Meilina Reksoprodjo](https://github.com/MeilinaR), resources & brainstorming, energy and persistence.
+* [Rıza Özçelik](https://github.com/rizaozcelik), resources, brainstorming and video tutorial on OOP.
 * [ChatGPT](https://openai.com/blog/chatgpt), writing support. 😎
 
 <sub>Copyright &copy; 2023 Francesca Grisoni. Distributed by an [MIT licence](LICENSE).</sub>

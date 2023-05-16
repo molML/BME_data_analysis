@@ -296,11 +296,10 @@ Each class has a speak method, which is overridden in each subclass with a more 
 
 ## Live tutorial 
 
-On May 15th 2023, we had a great hands-on example taught by [Rıza Özçelik](https://github.com/rizaozcelik). You can watch
-the tutorial by following the links below:
-* [OOP_example_part1.mp4](..%2F..%2F..%2F..%2F..%2F..%2Fhome%2Ffgrisoni%2FDownloads%2FOOP_example_part1.mp4)
-* [OOP_example_part2.mp4](..%2F..%2F..%2F..%2F..%2F..%2Fhome%2Ffgrisoni%2FDownloads%2FOOP_example_part2.mp4)
+On May 15th 2023, we had a great hands-on example taught by [Rıza Özçelik](https://github.com/rizaozcelik). 
 
+You can watch the tutorial by following [this link](https://drive.google.com/drive/folders/1R3XXT55e0fd_Yj-uARiWz0E3TkbL2RdW?usp=sharing).
+You can also download the code and play around with it [here](materials/OOP_code.zip)!
 
 ## OOP commands cheatsheet
 

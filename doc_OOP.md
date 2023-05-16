@@ -297,6 +297,7 @@ Each class has a speak method, which is overridden in each subclass with a more 
 ## Live tutorial 
 
 On May 15th 2023, we had a great hands-on example taught by [Rıza Özçelik](https://github.com/rizaozcelik). 
+In the example, he implemented a card game about Lord of the Rings. 
 
 You can watch the tutorial by following [this link](https://drive.google.com/drive/folders/1R3XXT55e0fd_Yj-uARiWz0E3TkbL2RdW?usp=sharing).
 You can also download the code and play around with it [here](materials/OOP_code.zip)!

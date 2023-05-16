@@ -296,10 +296,10 @@ Each class has a speak method, which is overridden in each subclass with a more 
 
 ## Live tutorial 
 
-You will find a step-by-step example of object-oriented-programming after lecture 3 (May 15th). Hang in there!
-
-
-<img src="https://wpamelia.com/wp-content/uploads/2019/06/loading1.jpg" width=400>
+On May 15th 2023, we had a great hands-on example taught by [Rıza Özçelik](https://github.com/rizaozcelik). You can watch
+the tutorial by following the links below:
+* [OOP_example_part1.mp4](..%2F..%2F..%2F..%2F..%2F..%2Fhome%2Ffgrisoni%2FDownloads%2FOOP_example_part1.mp4)
+* [OOP_example_part2.mp4](..%2F..%2F..%2F..%2F..%2F..%2Fhome%2Ffgrisoni%2FDownloads%2FOOP_example_part2.mp4)
 
 
 ## OOP commands cheatsheet

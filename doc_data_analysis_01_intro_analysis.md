@@ -57,12 +57,40 @@ accurate, and reliable as possible.
 
 ### Simpson's paradox
 
+Simpson's paradox is a statistical phenomenon that challenges our intuition and understanding of data analysis. It 
+occurs when a trend or association observed within different subgroups of a dataset is reversed or even eliminated when 
+the subgroups are combined. In other words, the relationship between two variables can appear to be one way when examined 
+separately, but when the data is aggregated, the relationship flips or disappears entirely. Simpson's paradox highlights 
+the importance of carefully considering the effects of confounding variables and the potential biases that can arise when interpreting data. It serves as a reminder that drawing conclusions based solely on aggregated data can lead to misleading or incorrect interpretations.
+
+
+<p align="center">
+<img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*8tP_5zRKNAyVSeexu7RJZg.png" width=500>
+</p>
+<sup>Image credits: https://towardsdatascience.com/simpsons-paradox-and-interpreting-data-6a0443516765 </sup>
 
 ### Correlation vs causation
+Correlation and causation are two distinct concepts in the realm of statistics and research. Correlation refers to a 
+statistical relationship between two variables, indicating how they tend to vary together. It measures the strength and 
+direction of the association between the variables, ranging from -1 (perfect negative correlation) to +1 (perfect positive
+correlation), with 0 indicating no correlation. However, correlation alone does not imply causation. Causation, on the 
+other hand, suggests that one variable directly influences or causes changes in another variable. It implies a 
+cause-and-effect relationship, where a change in one variable leads to a predictable change in the other. Establishing 
+causation requires more rigorous evidence, such as experimental design, controlling for confounding factors, and 
+demonstrating temporal precedence. It is crucial to recognize that even though variables may be strongly correlated, 
+there may be other factors at play that drive the relationship, making it a mere coincidence or a result of confounding 
+variables. Therefore, caution must be exercised when inferring causation based solely on observed correlations.
 
-### The Clever Hans effect
+<p align="center">
+<img src="https://www.tylervigen.com/chart-pngs/2.png" width=500>
+</p>
+<sup>Image credits: https://www.tylervigen.com/spurious-correlations </sup>
 
-## Tips on data visualization
+## Multivariate data analysis
+
+
+
+## Machine Learning
 
 
 

@@ -22,7 +22,19 @@ nav_order: 1
 ---
 
 ## How to think about data
+Data can be conceptualized as a collection of samples and features. A sample refers to a single data point or observation 
+within a dataset. It represents a specific instance or unit of measurement. For example, in a dataset of student performance, 
+each student's record would be a separate sample.
 
+On the other hand, features, also known as variables or attributes, represent the characteristics or measurements associated 
+with each sample. Features provide information about the properties or attributes of the samples. They can be quantitative 
+(numeric) or qualitative (categorical). In the student performance dataset, features could include variables like age, 
+gender, test scores, attendance, and so on.
+
+By organizing data into samples and features, we can explore and analyze the relationships and patterns within the dataset. 
+Samples allow us to examine individual observations, while features provide the context and details of each observation. 
+This framework enables us to apply statistical techniques, machine learning algorithms, and other analytical methods to 
+extract meaningful insights, identify trends, and make predictions based on the relationships between samples and features.
 
 ## Things to keep in mind
 
